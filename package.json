@@ -1,0 +1,35 @@
+{
+  "name": "wscribe-editor",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "check": "svelte-check --tsconfig ./tsconfig.json",
+    "format": "prettier --write  --plugin prettier-plugin-svelte --plugin prettier-plugin-tailwindcss .",
+    "test": "vitest --run --environment=happy-dom",
+    "test:watch": "vitest --environment=happy-dom"
+  },
+  "devDependencies": {
+    "@plussub/srt-vtt-parser": "^1.1.0",
+    "@sveltejs/vite-plugin-svelte": "^2.0.4",
+    "@tsconfig/svelte": "^4.0.1",
+    "autoprefixer": "^10.4.14",
+    "clsx": "^2.0.0",
+    "happy-dom": "^10.7.0",
+    "nanoid": "^4.0.2",
+    "postcss": "^8.4.24",
+    "prettier": "^3.0.0",
+    "prettier-plugin-svelte": "^3.0.3",
+    "prettier-plugin-tailwindcss": "^0.4.1",
+    "svelte": "^4.1.1",
+    "svelte-check": "^3.3.1",
+    "tailwindcss": "^3.3.2",
+    "tslib": "^2.5.0",
+    "typescript": "^5.0.2",
+    "vite": "^4.4.7",
+    "vitest": "^0.33.0"
+  }
+}

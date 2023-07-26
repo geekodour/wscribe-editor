@@ -1,0 +1,38 @@
+* wscribe-editor
+Live editor: [[https://wscribe.geekodour.org][wscribe.geekodour.org]]
+
+*wscribe-editor* is the editor for transcription/subtitle files(~json~, ~srt~, ~vtt~) generated using [[https://github.com/geekodour/wscribe][wscribe]]. It also supports general ~srt~ and ~vtt~ files but when loaded into the editor those will lack features such as "word level playback tracking" and "word level confidence score coloring" simply because those information are usually not encoded into ~srt~ and ~vtt~ files.
+
+It's strictly a subtitle editor and does nothing related to video/audio editing. It offers functionality to adjust offsets for the subtitle track so can be used to sync the subtitle with the media but is geared more towards manual editing use-cases such as:
+- Correcting incorrect word generation
+- Correcting incorrect offsets
+- Correcting punctuation
+- Correcting spelling
+- Adding any specific texts like dialogue elements, or sound descriptions etc.
+- Other manual edits
+** Importing and Exporting
+Every import/export happens locally, nothing you do inside ~wscribe-editor~ leaves your browser. So you can load large media files into the editor without any worries.
+*** Subtitles/Transcript
+**** Importing
+- JSON(generated using [[https://github.com/geekodour/wscribe][wscribe]]), SRT, VTT
+- Examples for all 3 *import* formats can be [[https://github.com/geekodour/wscribe/tree/main/examples/output][found here]].
+- Since there's no specific JSON schema for subtitle/transcription files, this is the [[https://github.com/geekodour/wscribe/blob/c16c34d722e76de5349ca07df17166829acb1bb9/src/wscribe/core.py#L12-L24][closest we have to the schema]] if you're looking for one.
+**** Exporting
+- JSON(without confidence/word level data), [[https://en.wikipedia.org/wiki/SubRip][SRT]], [[https://www.w3.org/TR/webvtt1/][VTT]], Plaintext
+- Examples for all 4 *export* formats can be [[https://github.com/geekodour/wscribe-editor/tree/main/examples/output][found here]]. (editor supports exporting in transcript mode/subtitle mode)
+*** Media
+Local audio/video can be imported to the editor so that it can be sync-ed with the transcript and corrections can be made in reference to it. No export of the media is supported. If there's any interest in any other media sources like youtube etc, please let me know [[https://github.com/geekodour/wscribe-editor/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc][by creating an issue]].
+** Roadmap
+*** UI
+- [ ] Design changes/CSS. Currently UI looks very MVP even if most features work. Some basic design/color/element changes should make the editor look more fun and intuitive to use.
+- [ ] Player controls: Current player controls are dummy need to fix those
+*** UX
+- [ ] Help page: Make the custom audio thing for help instead.
+- [ ] Auto slide editor to playing area
+- [ ] Play pause, Space when not in edit mode
+*** Features
+- [ ] Diff view
+*** Others
+- [ ] Add CI for automated tests
+** Acknowledgments
+This was created as part of an ongoing archival projects at [[https://www.sochara.org/][sochara]] to accelerate speed of generating transcription. Big thanks to the folks there for the opportunity to create this. See more details on it in the [[https://github.com/geekodour/wscribe][wscribe]] documentation.
