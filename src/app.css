@@ -1,3 +1,14 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.playing {
+  will-change: filter;
+  transition: filter 300ms;
+  filter: drop-shadow(0 0 0.5em #a3e635);
+}
+
+.wordhighlight {
+  background-color: #fde047;
+  color: #171717;
+}

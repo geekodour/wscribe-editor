@@ -74,9 +74,9 @@
             let wstart = wordSpans[i].dataset.start / 1000;
             let wend = wordSpans[i].dataset.end / 1000;
             if ($currentPlaybackTime > wstart && $currentPlaybackTime < wend) {
-              wordSpans[i].classList.add("underline");
+              wordSpans[i].classList.add("wordhighlight");
               setTimeout(() => {
-                wordSpans[i].classList.remove("underline");
+                wordSpans[i].classList.remove("wordhighlight");
               }, 1000);
             }
           }
@@ -205,11 +205,3 @@
     </div>
   </div>
 </div>
-
-<style>
-  .playing {
-    will-change: filter;
-    transition: filter 300ms;
-    filter: drop-shadow(0 0 0.5em #a3e635);
-  }
-</style>
