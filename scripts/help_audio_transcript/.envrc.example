@@ -1,0 +1,4 @@
+use nix
+export SUNO_USE_SMALL_MODELS=True
+export NLTK_DATA=$PWD/nltk_data
+export WSCRIBE_MODELS_DIR=$XDG_DATA_HOME/whisper-models

@@ -1,5 +1,5 @@
 * wscribe-editor
-Live editor: [[https://wscribe.geekodour.org][wscribe.geekodour.org]]
+Live editor: [[https://wscribe-editor.geekodour.org][wscribe-editor.geekodour.org]]
 
 *wscribe-editor* is the editor for transcription/subtitle files(~json~, ~srt~, ~vtt~) generated using [[https://github.com/geekodour/wscribe][wscribe]]. It also supports general ~srt~ and ~vtt~ files but when loaded into the editor those will lack features such as "word level playback tracking" and "word level confidence score coloring" simply because those information are usually not encoded into ~srt~ and ~vtt~ files.
 

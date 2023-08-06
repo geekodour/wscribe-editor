@@ -45,7 +45,6 @@ By the way, fun fact about what you're heading and reading right now. The origin
 
 ♪ Happy editing! ♪
 """
-
 pieces = []
 silence = np.zeros(int(0.25 * SAMPLE_RATE))
 sentences = nltk.sent_tokenize(text_prompt)
