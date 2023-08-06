@@ -7,7 +7,7 @@ import {
   SubtitleNode,
 } from "./utils";
 import type { TranscribedData } from "./types";
-import sampletranscriptdata from "../data/lex_tc.json"; // TODO: move to input examples
+import sampletranscriptdata from "./assets/wscribe_editor_into.json"; // TODO: move to input examples
 import { nanoid } from "nanoid";
 
 function createErrorStore() {

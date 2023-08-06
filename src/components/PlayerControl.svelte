@@ -9,6 +9,7 @@
     let fileURL = URL.createObjectURL(selectedVideo);
     let videoNode = document.querySelector("video");
     videoNode.src = fileURL;
+    videoNode.autoplay = true;
   }
 
   function handleSpaceKeyPress(event: any) {
@@ -43,7 +44,8 @@
       bind:this={videoPlayer}
       poster={ph}
       controls
-      autoplay
+      preload="metadata"
+      src="/wscribe_editor_intro.mp3"
       on:timeupdate={updateGlobalPlaybackTime}
     ></video>
   </div>

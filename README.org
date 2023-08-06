@@ -33,19 +33,3 @@ Local audio/video can be imported to the editor so that it can be sync-ed with t
 - [ ] Add CI for automated tests
 ** Acknowledgments
 This was created as part of an ongoing archival projects at [[https://www.sochara.org/][sochara]] to accelerate speed of generating transcription. Big thanks to the folks there for the opportunity to create this. See more details on it in the [[https://github.com/geekodour/wscribe][wscribe]] documentation.
-** TODO REMOVE HELP TRANSCRIPT
-
-Okay, this is for a transcript editing tool. Following is a bullet point description of various features of the tool/application. I want you to rewrite, re-order them in a form of a voice script and also try to make it sound friendly and add some bits of humor here and there if possible.
-
-
-Bullet points for the voice script:
-- Subtitle
-  - Import: SRT, VTT, JSON(exported from wscribe)
-  - Export: SRT, VTT, JSON and plaintext
-- Once you load the subtitle file it automatically re-formatted into subtitle and transcript format. Which you can switch back and forth from the settings pane in the left bottom of the screen.
-- In the usual case only would only work in one mode though, transcript or subtitle. But both the tracks are stored and edited separately so your changes in subtitle mode will not be reflected in transcript mode and vice versa
-- You can also load any media (audio/video) to play along while you edit the transcript/subtitle.
-- As the video plays, the segment that's being played will be highlighted. Additionally, if the generated file has word-level timestamps, the specific word will be underlined as well.
-- While the video is being played, if you click on any segment video playback will jump to that timestamp. Additionally, if word level timestamp data is available it'll do the same for that.
-- You can make text edits on the segments directly.
-- You can make other modifications to the segment clicking on the buttons on the right side of the segment.

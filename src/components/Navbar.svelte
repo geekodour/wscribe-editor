@@ -11,7 +11,8 @@
         <div class="flex gap-4">
           <a
             class="rounded-md bg-black px-5 py-2.5 text-sm font-medium text-white"
-            href="/"
+            href="https://github.com/geekodour/wscribe-editor"
+            target="_blank"
           >
             Github
           </a>

@@ -1,0 +1,3134 @@
+[
+  {
+    "text": "📢 [HIT SPACE TO START HELP TOUR] Hey, here's a short introduction to what this tool is about.",
+    "start": "00:00:00.000",
+    "end": "00:00:04.280",
+    "score": 0.76,
+    "words": [
+      {
+        "start": "00:00:00.000",
+        "end": "00:00:01.100",
+        "text": "📢 [HIT SPACE TO START HELP TOUR]<br/> Hey,",
+        "score": 0.25
+      },
+      {
+        "start": "00:00:01.180",
+        "end": "00:00:01.380",
+        "text": "here's",
+        "score": 0.85
+      },
+      {
+        "start": "00:00:01.380",
+        "end": "00:00:01.500",
+        "text": "a",
+        "score": 0.99
+      },
+      {
+        "start": "00:00:01.500",
+        "end": "00:00:01.700",
+        "text": "short",
+        "score": 0.89
+      },
+      {
+        "start": "00:00:01.700",
+        "end": "00:00:02.140",
+        "text": "introduction",
+        "score": 0.85
+      },
+      {
+        "start": "00:00:02.140",
+        "end": "00:00:02.400",
+        "text": "to",
+        "score": 0.88
+      },
+      {
+        "start": "00:00:02.400",
+        "end": "00:00:02.640",
+        "text": "what",
+        "score": 0.89
+      },
+      {
+        "start": "00:00:02.640",
+        "end": "00:00:02.980",
+        "text": "this",
+        "score": 0.89
+      },
+      {
+        "start": "00:00:02.980",
+        "end": "00:00:03.780",
+        "text": "tool",
+        "score": 0.88
+      },
+      {
+        "start": "00:00:03.780",
+        "end": "00:00:03.960",
+        "text": "is",
+        "score": 0.91
+      },
+      {
+        "start": "00:00:03.960",
+        "end": "00:00:04.280",
+        "text": "about.",
+        "score": 0.82
+      }
+    ]
+  },
+  {
+    "text": "This tool helps you edit your transcripts files once they are generated.",
+    "start": "00:00:06.160",
+    "end": "00:00:10.520",
+    "score": 0.76,
+    "words": [
+      {
+        "start": "00:00:05.810",
+        "end": "00:00:06.200",
+        "text": "This",
+        "score": 0.81
+      },
+      {
+        "start": "00:00:06.200",
+        "end": "00:00:06.500",
+        "text": "tool",
+        "score": 0.88
+      },
+      {
+        "start": "00:00:06.500",
+        "end": "00:00:06.960",
+        "text": "helps",
+        "score": 0.72
+      },
+      {
+        "start": "00:00:06.960",
+        "end": "00:00:07.240",
+        "text": "you",
+        "score": 0.9
+      },
+      {
+        "start": "00:00:07.240",
+        "end": "00:00:07.660",
+        "text": "edit",
+        "score": 0.82
+      },
+      {
+        "start": "00:00:07.660",
+        "end": "00:00:08.180",
+        "text": "your",
+        "score": 0.8
+      },
+      {
+        "start": "00:00:08.180",
+        "end": "00:00:08.900",
+        "text": "transcripts",
+        "score": 0.82
+      },
+      {
+        "start": "00:00:08.900",
+        "end": "00:00:09.260",
+        "text": "files",
+        "score": 0.75
+      },
+      {
+        "start": "00:00:09.260",
+        "end": "00:00:09.740",
+        "text": "once",
+        "score": 0.78
+      },
+      {
+        "start": "00:00:09.740",
+        "end": "00:00:09.980",
+        "text": "they",
+        "score": 0.73
+      },
+      {
+        "start": "00:00:09.980",
+        "end": "00:00:10.120",
+        "text": "are",
+        "score": 0.82
+      },
+      {
+        "start": "00:00:10.120",
+        "end": "00:00:10.520",
+        "text": "generated.",
+        "score": 0.8
+      }
+    ]
+  },
+  {
+    "text": "This will not generate the transcript for you, it'll just help you edit them.",
+    "start": "00:00:12.800",
+    "end": "00:00:17.580",
+    "score": 0.76,
+    "words": [
+      {
+        "start": "00:00:12.450",
+        "end": "00:00:12.840",
+        "text": "This",
+        "score": 0.81
+      },
+      {
+        "start": "00:00:12.840",
+        "end": "00:00:13.000",
+        "text": "will",
+        "score": 0.82
+      },
+      {
+        "start": "00:00:13.000",
+        "end": "00:00:13.240",
+        "text": "not",
+        "score": 0.9
+      },
+      {
+        "start": "00:00:13.240",
+        "end": "00:00:13.640",
+        "text": "generate",
+        "score": 0.84
+      },
+      {
+        "start": "00:00:13.640",
+        "end": "00:00:13.800",
+        "text": "the",
+        "score": 0.82
+      },
+      {
+        "start": "00:00:13.800",
+        "end": "00:00:14.120",
+        "text": "transcript",
+        "score": 0.86
+      },
+      {
+        "start": "00:00:14.120",
+        "end": "00:00:14.500",
+        "text": "for",
+        "score": 0.72
+      },
+      {
+        "start": "00:00:14.500",
+        "end": "00:00:14.780",
+        "text": "you,",
+        "score": 0.89
+      },
+      {
+        "start": "00:00:15.460",
+        "end": "00:00:16.320",
+        "text": "it'll",
+        "score": 0.8
+      },
+      {
+        "start": "00:00:16.320",
+        "end": "00:00:16.500",
+        "text": "just",
+        "score": 0.89
+      },
+      {
+        "start": "00:00:16.500",
+        "end": "00:00:17.000",
+        "text": "help",
+        "score": 0.8
+      },
+      {
+        "start": "00:00:17.000",
+        "end": "00:00:17.120",
+        "text": "you",
+        "score": 0.89
+      },
+      {
+        "start": "00:00:17.120",
+        "end": "00:00:17.300",
+        "text": "edit",
+        "score": 0.8
+      },
+      {
+        "start": "00:00:17.300",
+        "end": "00:00:17.580",
+        "text": "them.",
+        "score": 0.75
+      }
+    ]
+  },
+  {
+    "text": "If you're looking for generating transcript, then you can check the main tool wscribe.",
+    "start": "00:00:20.160",
+    "end": "00:00:28.020",
+    "score": 0.76,
+    "words": [
+      {
+        "start": "00:00:19.790",
+        "end": "00:00:20.180",
+        "text": "If",
+        "score": 0.9
+      },
+      {
+        "start": "00:00:20.180",
+        "end": "00:00:20.380",
+        "text": "you're",
+        "score": 0.92
+      },
+      {
+        "start": "00:00:20.380",
+        "end": "00:00:20.600",
+        "text": "looking",
+        "score": 0.79
+      },
+      {
+        "start": "00:00:20.600",
+        "end": "00:00:21.200",
+        "text": "for",
+        "score": 0.9
+      },
+      {
+        "start": "00:00:21.200",
+        "end": "00:00:21.980",
+        "text": "generating",
+        "score": 0.82
+      },
+      {
+        "start": "00:00:21.980",
+        "end": "00:00:22.620",
+        "text": "transcript,",
+        "score": 0.82
+      },
+      {
+        "start": "00:00:23.480",
+        "end": "00:00:24.180",
+        "text": "then",
+        "score": 0.73
+      },
+      {
+        "start": "00:00:24.180",
+        "end": "00:00:24.580",
+        "text": "you",
+        "score": 0.9
+      },
+      {
+        "start": "00:00:24.580",
+        "end": "00:00:25.100",
+        "text": "can",
+        "score": 0.9
+      },
+      {
+        "start": "00:00:25.100",
+        "end": "00:00:27.100",
+        "text": "check",
+        "score": 0.79
+      },
+      {
+        "start": "00:00:27.100",
+        "end": "00:00:27.260",
+        "text": "the",
+        "score": 0.8
+      },
+      {
+        "start": "00:00:27.260",
+        "end": "00:00:27.440",
+        "text": "main",
+        "score": 0.71
+      },
+      {
+        "start": "00:00:27.440",
+        "end": "00:00:27.600",
+        "text": "tool",
+        "score": 0.72
+      },
+      {
+        "start": "00:00:27.600",
+        "end": "00:00:28.020",
+        "text": "wscribe",
+        "score": 0.83
+      }
+    ]
+  },
+  {
+    "text": "Also, if I am speaking too slow, you can change the playback speed with the buttons",
+    "start": "00:00:28.840",
+    "end": "00:00:34.240",
+    "score": 0.76,
+    "words": [
+      {
+        "start": "00:00:28.840",
+        "end": "00:00:29.560",
+        "text": "Also,",
+        "score": 0.42
+      },
+      {
+        "start": "00:00:29.780",
+        "end": "00:00:29.960",
+        "text": "if",
+        "score": 0.9
+      },
+      {
+        "start": "00:00:29.960",
+        "end": "00:00:30.060",
+        "text": "I",
+        "score": 0.98
+      },
+      {
+        "start": "00:00:30.060",
+        "end": "00:00:30.200",
+        "text": "am",
+        "score": 0.79
+      },
+      {
+        "start": "00:00:30.200",
+        "end": "00:00:30.500",
+        "text": "speaking",
+        "score": 0.77
+      },
+      {
+        "start": "00:00:30.500",
+        "end": "00:00:30.800",
+        "text": "too",
+        "score": 0.74
+      },
+      {
+        "start": "00:00:30.800",
+        "end": "00:00:31.300",
+        "text": "slow,",
+        "score": 0.82
+      },
+      {
+        "start": "00:00:31.940",
+        "end": "00:00:32.040",
+        "text": "you",
+        "score": 0.88
+      },
+      {
+        "start": "00:00:32.040",
+        "end": "00:00:32.200",
+        "text": "can",
+        "score": 0.9
+      },
+      {
+        "start": "00:00:32.200",
+        "end": "00:00:32.540",
+        "text": "change",
+        "score": 0.83
+      },
+      {
+        "start": "00:00:32.540",
+        "end": "00:00:32.720",
+        "text": "the",
+        "score": 0.8
+      },
+      {
+        "start": "00:00:32.720",
+        "end": "00:00:32.980",
+        "text": "playback",
+        "score": 0.93
+      },
+      {
+        "start": "00:00:32.980",
+        "end": "00:00:33.400",
+        "text": "speed",
+        "score": 0.88
+      },
+      {
+        "start": "00:00:33.400",
+        "end": "00:00:33.600",
+        "text": "with",
+        "score": 0.8
+      },
+      {
+        "start": "00:00:33.600",
+        "end": "00:00:33.740",
+        "text": "the",
+        "score": 0.8
+      },
+      {
+        "start": "00:00:33.740",
+        "end": "00:00:34.240",
+        "text": "buttons",
+        "score": 0.72
+      }
+    ]
+  },
+  {
+    "text": "in the bottom on the media players.",
+    "start": "00:00:35.660",
+    "end": "00:00:40.080",
+    "score": 0.76,
+    "words": [
+      {
+        "start": "00:00:35.660",
+        "end": "00:00:36.380",
+        "text": "in",
+        "score": 0.66
+      },
+      {
+        "start": "00:00:36.380",
+        "end": "00:00:36.500",
+        "text": "the",
+        "score": 0.82
+      },
+      {
+        "start": "00:00:36.500",
+        "end": "00:00:36.900",
+        "text": "bottom",
+        "score": 0.76
+      },
+      {
+        "start": "00:00:36.900",
+        "end": "00:00:37.720",
+        "text": "on",
+        "score": 0.76
+      },
+      {
+        "start": "00:00:37.720",
+        "end": "00:00:38.040",
+        "text": "the",
+        "score": 0.81
+      },
+      {
+        "start": "00:00:38.040",
+        "end": "00:00:39.120",
+        "text": "media",
+        "score": 0.77
+      },
+      {
+        "start": "00:00:39.120",
+        "end": "00:00:40.080",
+        "text": "players.",
+        "score": 0.49
+      }
+    ]
+  },
+  {
+    "text": "Anyway, let's dive into some of the features, shall we?",
+    "start": "00:00:40.880",
+    "end": "00:00:44.240",
+    "score": 0.76,
+    "words": [
+      {
+        "start": "00:00:40.880",
+        "end": "00:00:41.600",
+        "text": "Anyway,",
+        "score": 0.79
+      },
+      {
+        "start": "00:00:41.840",
+        "end": "00:00:42.240",
+        "text": "let's",
+        "score": 0.94
+      },
+      {
+        "start": "00:00:42.240",
+        "end": "00:00:42.520",
+        "text": "dive",
+        "score": 0.83
+      },
+      {
+        "start": "00:00:42.520",
+        "end": "00:00:42.740",
+        "text": "into",
+        "score": 0.72
+      },
+      {
+        "start": "00:00:42.740",
+        "end": "00:00:42.980",
+        "text": "some",
+        "score": 0.81
+      },
+      {
+        "start": "00:00:42.980",
+        "end": "00:00:43.060",
+        "text": "of",
+        "score": 0.9
+      },
+      {
+        "start": "00:00:43.060",
+        "end": "00:00:43.160",
+        "text": "the",
+        "score": 0.81
+      },
+      {
+        "start": "00:00:43.160",
+        "end": "00:00:43.540",
+        "text": "features,",
+        "score": 0.73
+      },
+      {
+        "start": "00:00:43.900",
+        "end": "00:00:44.020",
+        "text": "shall",
+        "score": 0.83
+      },
+      {
+        "start": "00:00:44.020",
+        "end": "00:00:44.240",
+        "text": "we?",
+        "score": 0.9
+      }
+    ]
+  },
+  {
+    "text": "This supports importing transcription files from various formats, SRT, VTT, and even JSON.",
+    "start": "00:00:46.020",
+    "end": "00:00:53.980",
+    "score": 0.76,
+    "words": [
+      {
+        "start": "00:00:46.020",
+        "end": "00:00:46.740",
+        "text": "This",
+        "score": 0.79
+      },
+      {
+        "start": "00:00:46.740",
+        "end": "00:00:47.280",
+        "text": "supports",
+        "score": 0.8
+      },
+      {
+        "start": "00:00:47.280",
+        "end": "00:00:48.160",
+        "text": "importing",
+        "score": 0.78
+      },
+      {
+        "start": "00:00:48.160",
+        "end": "00:00:48.760",
+        "text": "transcription",
+        "score": 0.77
+      },
+      {
+        "start": "00:00:48.760",
+        "end": "00:00:49.360",
+        "text": "files",
+        "score": 0.82
+      },
+      {
+        "start": "00:00:49.360",
+        "end": "00:00:49.920",
+        "text": "from",
+        "score": 0.82
+      },
+      {
+        "start": "00:00:49.920",
+        "end": "00:00:50.560",
+        "text": "various",
+        "score": 0.86
+      },
+      {
+        "start": "00:00:50.560",
+        "end": "00:00:51.160",
+        "text": "formats,",
+        "score": 0.79
+      },
+      {
+        "start": "00:00:51.460",
+        "end": "00:00:51.960",
+        "text": "SRT,",
+        "score": 0.93
+      },
+      {
+        "start": "00:00:52.320",
+        "end": "00:00:52.740",
+        "text": "VTT,",
+        "score": 0.98
+      },
+      {
+        "start": "00:00:53.160",
+        "end": "00:00:53.360",
+        "text": "and",
+        "score": 0.9
+      },
+      {
+        "start": "00:00:53.360",
+        "end": "00:00:53.620",
+        "text": "even",
+        "score": 0.8
+      },
+      {
+        "start": "00:00:53.620",
+        "end": "00:00:53.980",
+        "text": "JSON.",
+        "score": 0.87
+      }
+    ]
+  },
+  {
+    "text": "With JSON, you can also have word-level timestamps.",
+    "start": "00:00:54.880",
+    "end": "00:00:58.400",
+    "score": 0.79,
+    "words": [
+      {
+        "start": "00:00:54.880",
+        "end": "00:00:55.680",
+        "text": "With",
+        "score": 0.26
+      },
+      {
+        "start": "00:00:55.680",
+        "end": "00:00:56.020",
+        "text": "JSON,",
+        "score": 0.73
+      },
+      {
+        "start": "00:00:56.180",
+        "end": "00:00:56.240",
+        "text": "you",
+        "score": 0.89
+      },
+      {
+        "start": "00:00:56.240",
+        "end": "00:00:56.360",
+        "text": "can",
+        "score": 0.89
+      },
+      {
+        "start": "00:00:56.360",
+        "end": "00:00:56.580",
+        "text": "also",
+        "score": 0.82
+      },
+      {
+        "start": "00:00:56.580",
+        "end": "00:00:56.920",
+        "text": "have",
+        "score": 0.89
+      },
+      {
+        "start": "00:00:56.920",
+        "end": "00:00:57.380",
+        "text": "word",
+        "score": 0.66
+      },
+      {
+        "start": "00:00:57.380",
+        "end": "00:00:57.620",
+        "text": "-level",
+        "score": 0.75
+      },
+      {
+        "start": "00:00:57.620",
+        "end": "00:00:58.400",
+        "text": "timestamps.",
+        "score": 0.79
+      }
+    ]
+  },
+  {
+    "text": "On exporting, this can export to SRT, VTT, JSON, and plain old print text files.",
+    "start": "00:00:59.360",
+    "end": "00:01:06.960",
+    "score": 0.79,
+    "words": [
+      {
+        "start": "00:00:59.360",
+        "end": "00:00:59.860",
+        "text": "On",
+        "score": 0.85
+      },
+      {
+        "start": "00:00:59.860",
+        "end": "00:01:00.480",
+        "text": "exporting,",
+        "score": 0.59
+      },
+      {
+        "start": "00:01:00.680",
+        "end": "00:01:00.780",
+        "text": "this",
+        "score": 0.88
+      },
+      {
+        "start": "00:01:00.780",
+        "end": "00:01:00.940",
+        "text": "can",
+        "score": 0.89
+      },
+      {
+        "start": "00:01:00.940",
+        "end": "00:01:01.300",
+        "text": "export",
+        "score": 0.82
+      },
+      {
+        "start": "00:01:01.300",
+        "end": "00:01:01.500",
+        "text": "to",
+        "score": 0.9
+      },
+      {
+        "start": "00:01:01.500",
+        "end": "00:01:02.140",
+        "text": "SRT,",
+        "score": 0.95
+      },
+      {
+        "start": "00:01:03.420",
+        "end": "00:01:04.040",
+        "text": "VTT,",
+        "score": 0.98
+      },
+      {
+        "start": "00:01:04.660",
+        "end": "00:01:05.000",
+        "text": "JSON,",
+        "score": 0.85
+      },
+      {
+        "start": "00:01:05.360",
+        "end": "00:01:05.580",
+        "text": "and",
+        "score": 0.89
+      },
+      {
+        "start": "00:01:05.580",
+        "end": "00:01:05.820",
+        "text": "plain",
+        "score": 0.96
+      },
+      {
+        "start": "00:01:05.820",
+        "end": "00:01:06.000",
+        "text": "old",
+        "score": 0.7
+      },
+      {
+        "start": "00:01:06.000",
+        "end": "00:01:06.220",
+        "text": "print",
+        "score": 0.36
+      },
+      {
+        "start": "00:01:06.220",
+        "end": "00:01:06.500",
+        "text": "text",
+        "score": 0.84
+      },
+      {
+        "start": "00:01:06.500",
+        "end": "00:01:06.960",
+        "text": "files.",
+        "score": 0.82
+      }
+    ]
+  },
+  {
+    "text": "Let's talk about editing modes.",
+    "start": "00:01:09.220",
+    "end": "00:01:11.360",
+    "score": 0.79,
+    "words": [
+      {
+        "start": "00:01:09.220",
+        "end": "00:01:10.020",
+        "text": "Let's",
+        "score": 0.93
+      },
+      {
+        "start": "00:01:10.020",
+        "end": "00:01:10.240",
+        "text": "talk",
+        "score": 0.83
+      },
+      {
+        "start": "00:01:10.240",
+        "end": "00:01:10.520",
+        "text": "about",
+        "score": 0.83
+      },
+      {
+        "start": "00:01:10.520",
+        "end": "00:01:10.960",
+        "text": "editing",
+        "score": 0.82
+      },
+      {
+        "start": "00:01:10.960",
+        "end": "00:01:11.360",
+        "text": "modes.",
+        "score": 0.74
+      }
+    ]
+  },
+  {
+    "text": "Once you load a subtitle file, the tool transforms it into both subtitle and transcript formats.",
+    "start": "00:01:12.920",
+    "end": "00:01:21.740",
+    "score": 0.79,
+    "words": [
+      {
+        "start": "00:01:12.920",
+        "end": "00:01:13.720",
+        "text": "Once",
+        "score": 0.83
+      },
+      {
+        "start": "00:01:13.720",
+        "end": "00:01:13.900",
+        "text": "you",
+        "score": 0.89
+      },
+      {
+        "start": "00:01:13.900",
+        "end": "00:01:14.140",
+        "text": "load",
+        "score": 0.92
+      },
+      {
+        "start": "00:01:14.140",
+        "end": "00:01:14.280",
+        "text": "a",
+        "score": 1.0
+      },
+      {
+        "start": "00:01:14.280",
+        "end": "00:01:14.660",
+        "text": "subtitle",
+        "score": 0.82
+      },
+      {
+        "start": "00:01:14.660",
+        "end": "00:01:15.060",
+        "text": "file,",
+        "score": 0.82
+      },
+      {
+        "start": "00:01:15.760",
+        "end": "00:01:16.060",
+        "text": "the",
+        "score": 0.81
+      },
+      {
+        "start": "00:01:16.060",
+        "end": "00:01:16.460",
+        "text": "tool",
+        "score": 0.89
+      },
+      {
+        "start": "00:01:16.460",
+        "end": "00:01:17.340",
+        "text": "transforms",
+        "score": 0.81
+      },
+      {
+        "start": "00:01:17.340",
+        "end": "00:01:17.800",
+        "text": "it",
+        "score": 0.9
+      },
+      {
+        "start": "00:01:17.800",
+        "end": "00:01:18.380",
+        "text": "into",
+        "score": 0.73
+      },
+      {
+        "start": "00:01:18.380",
+        "end": "00:01:19.660",
+        "text": "both",
+        "score": 0.83
+      },
+      {
+        "start": "00:01:19.660",
+        "end": "00:01:20.280",
+        "text": "subtitle",
+        "score": 0.79
+      },
+      {
+        "start": "00:01:20.280",
+        "end": "00:01:20.580",
+        "text": "and",
+        "score": 0.9
+      },
+      {
+        "start": "00:01:20.580",
+        "end": "00:01:21.000",
+        "text": "transcript",
+        "score": 0.86
+      },
+      {
+        "start": "00:01:21.000",
+        "end": "00:01:21.740",
+        "text": "formats.",
+        "score": 0.78
+      }
+    ]
+  },
+  {
+    "text": "You can always switch between the two modes right there from the settings pane,",
+    "start": "00:01:22.920",
+    "end": "00:01:27.780",
+    "score": 0.74,
+    "words": [
+      {
+        "start": "00:01:22.920",
+        "end": "00:01:23.600",
+        "text": "You",
+        "score": 0.16
+      },
+      {
+        "start": "00:01:23.600",
+        "end": "00:01:23.800",
+        "text": "can",
+        "score": 0.87
+      },
+      {
+        "start": "00:01:23.800",
+        "end": "00:01:24.000",
+        "text": "always",
+        "score": 0.45
+      },
+      {
+        "start": "00:01:24.000",
+        "end": "00:01:24.320",
+        "text": "switch",
+        "score": 0.93
+      },
+      {
+        "start": "00:01:24.320",
+        "end": "00:01:24.640",
+        "text": "between",
+        "score": 0.8
+      },
+      {
+        "start": "00:01:24.640",
+        "end": "00:01:24.840",
+        "text": "the",
+        "score": 0.78
+      },
+      {
+        "start": "00:01:24.840",
+        "end": "00:01:25.000",
+        "text": "two",
+        "score": 0.82
+      },
+      {
+        "start": "00:01:25.000",
+        "end": "00:01:25.440",
+        "text": "modes",
+        "score": 0.76
+      },
+      {
+        "start": "00:01:25.440",
+        "end": "00:01:25.820",
+        "text": "right",
+        "score": 0.6
+      },
+      {
+        "start": "00:01:25.820",
+        "end": "00:01:26.260",
+        "text": "there",
+        "score": 0.84
+      },
+      {
+        "start": "00:01:26.260",
+        "end": "00:01:26.880",
+        "text": "from",
+        "score": 0.72
+      },
+      {
+        "start": "00:01:26.880",
+        "end": "00:01:27.080",
+        "text": "the",
+        "score": 0.8
+      },
+      {
+        "start": "00:01:27.080",
+        "end": "00:01:27.380",
+        "text": "settings",
+        "score": 0.63
+      },
+      {
+        "start": "00:01:27.380",
+        "end": "00:01:27.780",
+        "text": "pane,",
+        "score": 0.78
+      }
+    ]
+  },
+  {
+    "text": "nestled at the cozy right bottom of your screen.",
+    "start": "00:01:28.300",
+    "end": "00:01:33.600",
+    "score": 0.74,
+    "words": [
+      {
+        "start": "00:01:28.300",
+        "end": "00:01:28.800",
+        "text": "nestled",
+        "score": 0.94
+      },
+      {
+        "start": "00:01:28.800",
+        "end": "00:01:29.300",
+        "text": "at",
+        "score": 0.9
+      },
+      {
+        "start": "00:01:29.300",
+        "end": "00:01:30.280",
+        "text": "the",
+        "score": 0.8
+      },
+      {
+        "start": "00:01:30.280",
+        "end": "00:01:31.080",
+        "text": "cozy",
+        "score": 0.75
+      },
+      {
+        "start": "00:01:31.080",
+        "end": "00:01:32.720",
+        "text": "right",
+        "score": 0.79
+      },
+      {
+        "start": "00:01:32.720",
+        "end": "00:01:32.960",
+        "text": "bottom",
+        "score": 0.75
+      },
+      {
+        "start": "00:01:32.960",
+        "end": "00:01:33.140",
+        "text": "of",
+        "score": 0.9
+      },
+      {
+        "start": "00:01:33.140",
+        "end": "00:01:33.260",
+        "text": "your",
+        "score": 0.79
+      },
+      {
+        "start": "00:01:33.260",
+        "end": "00:01:33.600",
+        "text": "screen.",
+        "score": 0.86
+      }
+    ]
+  },
+  {
+    "text": "Also, your changes in subtitle mode won't day crash your transcript party and vice versa.",
+    "start": "00:01:34.080",
+    "end": "00:01:41.780",
+    "score": 0.74,
+    "words": [
+      {
+        "start": "00:01:34.080",
+        "end": "00:01:34.720",
+        "text": "Also,",
+        "score": 0.91
+      },
+      {
+        "start": "00:01:34.920",
+        "end": "00:01:35.080",
+        "text": "your",
+        "score": 0.8
+      },
+      {
+        "start": "00:01:35.080",
+        "end": "00:01:35.460",
+        "text": "changes",
+        "score": 0.73
+      },
+      {
+        "start": "00:01:35.460",
+        "end": "00:01:35.720",
+        "text": "in",
+        "score": 0.83
+      },
+      {
+        "start": "00:01:35.720",
+        "end": "00:01:36.180",
+        "text": "subtitle",
+        "score": 0.59
+      },
+      {
+        "start": "00:01:36.180",
+        "end": "00:01:36.560",
+        "text": "mode",
+        "score": 0.79
+      },
+      {
+        "start": "00:01:36.560",
+        "end": "00:01:37.360",
+        "text": "won't",
+        "score": 0.93
+      },
+      {
+        "start": "00:01:37.360",
+        "end": "00:01:38.260",
+        "text": "day",
+        "score": 0.47
+      },
+      {
+        "start": "00:01:38.260",
+        "end": "00:01:38.580",
+        "text": "crash",
+        "score": 0.5
+      },
+      {
+        "start": "00:01:38.580",
+        "end": "00:01:38.780",
+        "text": "your",
+        "score": 0.8
+      },
+      {
+        "start": "00:01:38.780",
+        "end": "00:01:39.200",
+        "text": "transcript",
+        "score": 0.84
+      },
+      {
+        "start": "00:01:39.200",
+        "end": "00:01:39.800",
+        "text": "party",
+        "score": 0.74
+      },
+      {
+        "start": "00:01:39.800",
+        "end": "00:01:41.140",
+        "text": "and",
+        "score": 0.67
+      },
+      {
+        "start": "00:01:41.140",
+        "end": "00:01:41.420",
+        "text": "vice",
+        "score": 0.87
+      },
+      {
+        "start": "00:01:41.420",
+        "end": "00:01:41.780",
+        "text": "versa.",
+        "score": 0.65
+      }
+    ]
+  },
+  {
+    "text": "You can switch between them as the media continues to play.",
+    "start": "00:01:42.480",
+    "end": "00:01:45.240",
+    "score": 0.74,
+    "words": [
+      {
+        "start": "00:01:42.480",
+        "end": "00:01:42.700",
+        "text": "You",
+        "score": 0.89
+      },
+      {
+        "start": "00:01:42.700",
+        "end": "00:01:42.880",
+        "text": "can",
+        "score": 0.9
+      },
+      {
+        "start": "00:01:42.880",
+        "end": "00:01:43.220",
+        "text": "switch",
+        "score": 0.95
+      },
+      {
+        "start": "00:01:43.220",
+        "end": "00:01:43.560",
+        "text": "between",
+        "score": 0.76
+      },
+      {
+        "start": "00:01:43.560",
+        "end": "00:01:43.760",
+        "text": "them",
+        "score": 0.74
+      },
+      {
+        "start": "00:01:43.760",
+        "end": "00:01:43.920",
+        "text": "as",
+        "score": 0.9
+      },
+      {
+        "start": "00:01:43.920",
+        "end": "00:01:44.040",
+        "text": "the",
+        "score": 0.81
+      },
+      {
+        "start": "00:01:44.040",
+        "end": "00:01:44.260",
+        "text": "media",
+        "score": 0.8
+      },
+      {
+        "start": "00:01:44.260",
+        "end": "00:01:44.740",
+        "text": "continues",
+        "score": 0.71
+      },
+      {
+        "start": "00:01:44.740",
+        "end": "00:01:44.940",
+        "text": "to",
+        "score": 0.9
+      },
+      {
+        "start": "00:01:44.940",
+        "end": "00:01:45.240",
+        "text": "play.",
+        "score": 0.89
+      }
+    ]
+  },
+  {
+    "text": "I would suggest you to try it right now.",
+    "start": "00:01:45.900",
+    "end": "00:01:48.900",
+    "score": 0.74,
+    "words": [
+      {
+        "start": "00:01:45.900",
+        "end": "00:01:46.180",
+        "text": "I",
+        "score": 0.66
+      },
+      {
+        "start": "00:01:46.180",
+        "end": "00:01:46.380",
+        "text": "would",
+        "score": 0.83
+      },
+      {
+        "start": "00:01:46.380",
+        "end": "00:01:46.720",
+        "text": "suggest",
+        "score": 0.66
+      },
+      {
+        "start": "00:01:46.720",
+        "end": "00:01:46.900",
+        "text": "you",
+        "score": 0.87
+      },
+      {
+        "start": "00:01:46.900",
+        "end": "00:01:47.080",
+        "text": "to",
+        "score": 0.78
+      },
+      {
+        "start": "00:01:47.080",
+        "end": "00:01:47.320",
+        "text": "try",
+        "score": 0.81
+      },
+      {
+        "start": "00:01:47.320",
+        "end": "00:01:47.540",
+        "text": "it",
+        "score": 0.9
+      },
+      {
+        "start": "00:01:47.540",
+        "end": "00:01:48.400",
+        "text": "right",
+        "score": 0.87
+      },
+      {
+        "start": "00:01:48.400",
+        "end": "00:01:48.900",
+        "text": "now.",
+        "score": 0.9
+      }
+    ]
+  },
+  {
+    "text": "Um, if you have word-level confidence or",
+    "start": "00:01:49.860",
+    "end": "00:01:52.620",
+    "score": 0.71,
+    "words": [
+      {
+        "start": "00:01:49.650",
+        "end": "00:01:50.020",
+        "text": "Um,",
+        "score": 0.0
+      },
+      {
+        "start": "00:01:50.440",
+        "end": "00:01:50.560",
+        "text": "if",
+        "score": 0.86
+      },
+      {
+        "start": "00:01:50.560",
+        "end": "00:01:50.700",
+        "text": "you",
+        "score": 0.9
+      },
+      {
+        "start": "00:01:50.700",
+        "end": "00:01:51.100",
+        "text": "have",
+        "score": 0.89
+      },
+      {
+        "start": "00:01:51.100",
+        "end": "00:01:51.460",
+        "text": "word",
+        "score": 0.73
+      },
+      {
+        "start": "00:01:51.460",
+        "end": "00:01:51.720",
+        "text": "-level",
+        "score": 0.53
+      },
+      {
+        "start": "00:01:51.720",
+        "end": "00:01:52.260",
+        "text": "confidence",
+        "score": 0.88
+      },
+      {
+        "start": "00:01:52.260",
+        "end": "00:01:52.620",
+        "text": "or",
+        "score": 0.55
+      }
+    ]
+  },
+  {
+    "text": "hitting show confidence will color code each word below a certain threshold,",
+    "start": "00:01:53.300",
+    "end": "00:01:57.940",
+    "score": 0.71,
+    "words": [
+      {
+        "start": "00:01:53.250",
+        "end": "00:01:53.620",
+        "text": "hitting",
+        "score": 0.21
+      },
+      {
+        "start": "00:01:53.620",
+        "end": "00:01:54.020",
+        "text": "show",
+        "score": 0.65
+      },
+      {
+        "start": "00:01:54.020",
+        "end": "00:01:54.560",
+        "text": "confidence",
+        "score": 0.81
+      },
+      {
+        "start": "00:01:54.560",
+        "end": "00:01:54.800",
+        "text": "will",
+        "score": 0.7
+      },
+      {
+        "start": "00:01:54.800",
+        "end": "00:01:55.160",
+        "text": "color",
+        "score": 0.75
+      },
+      {
+        "start": "00:01:55.160",
+        "end": "00:01:55.580",
+        "text": "code",
+        "score": 0.76
+      },
+      {
+        "start": "00:01:55.580",
+        "end": "00:01:56.020",
+        "text": "each",
+        "score": 0.79
+      },
+      {
+        "start": "00:01:56.020",
+        "end": "00:01:56.460",
+        "text": "word",
+        "score": 0.8
+      },
+      {
+        "start": "00:01:56.460",
+        "end": "00:01:57.000",
+        "text": "below",
+        "score": 0.77
+      },
+      {
+        "start": "00:01:57.000",
+        "end": "00:01:57.200",
+        "text": "a",
+        "score": 0.99
+      },
+      {
+        "start": "00:01:57.200",
+        "end": "00:01:57.420",
+        "text": "certain",
+        "score": 0.79
+      },
+      {
+        "start": "00:01:57.420",
+        "end": "00:01:57.940",
+        "text": "threshold,",
+        "score": 0.42
+      }
+    ]
+  },
+  {
+    "text": "making it clear where the AI generation might have been fuzzy.",
+    "start": "00:01:58.220",
+    "end": "00:02:03.020",
+    "score": 0.71,
+    "words": [
+      {
+        "start": "00:01:58.220",
+        "end": "00:01:58.860",
+        "text": "making",
+        "score": 0.71
+      },
+      {
+        "start": "00:01:58.860",
+        "end": "00:01:59.120",
+        "text": "it",
+        "score": 0.9
+      },
+      {
+        "start": "00:01:59.120",
+        "end": "00:01:59.600",
+        "text": "clear",
+        "score": 0.82
+      },
+      {
+        "start": "00:01:59.600",
+        "end": "00:02:00.420",
+        "text": "where",
+        "score": 0.88
+      },
+      {
+        "start": "00:02:00.420",
+        "end": "00:02:00.960",
+        "text": "the",
+        "score": 0.82
+      },
+      {
+        "start": "00:02:00.960",
+        "end": "00:02:01.240",
+        "text": "AI",
+        "score": 0.86
+      },
+      {
+        "start": "00:02:01.240",
+        "end": "00:02:01.820",
+        "text": "generation",
+        "score": 0.8
+      },
+      {
+        "start": "00:02:01.820",
+        "end": "00:02:02.140",
+        "text": "might",
+        "score": 0.79
+      },
+      {
+        "start": "00:02:02.140",
+        "end": "00:02:02.340",
+        "text": "have",
+        "score": 0.87
+      },
+      {
+        "start": "00:02:02.340",
+        "end": "00:02:02.600",
+        "text": "been",
+        "score": 0.82
+      },
+      {
+        "start": "00:02:02.600",
+        "end": "00:02:03.020",
+        "text": "fuzzy.",
+        "score": 0.86
+      }
+    ]
+  },
+  {
+    "text": "Um, this can be top of as the media is playing as.",
+    "start": "00:02:03.460",
+    "end": "00:02:07.820",
+    "score": 0.71,
+    "words": [
+      {
+        "start": "00:02:03.460",
+        "end": "00:02:04.200",
+        "text": "Um,",
+        "score": 0.67
+      },
+      {
+        "start": "00:02:04.360",
+        "end": "00:02:04.660",
+        "text": "this",
+        "score": 0.88
+      },
+      {
+        "start": "00:02:04.660",
+        "end": "00:02:04.820",
+        "text": "can",
+        "score": 0.9
+      },
+      {
+        "start": "00:02:04.820",
+        "end": "00:02:05.080",
+        "text": "be",
+        "score": 0.9
+      },
+      {
+        "start": "00:02:05.080",
+        "end": "00:02:05.420",
+        "text": "top",
+        "score": 0.82
+      },
+      {
+        "start": "00:02:05.420",
+        "end": "00:02:05.580",
+        "text": "of",
+        "score": 0.44
+      },
+      {
+        "start": "00:02:05.580",
+        "end": "00:02:05.960",
+        "text": "as",
+        "score": 0.72
+      },
+      {
+        "start": "00:02:05.960",
+        "end": "00:02:06.160",
+        "text": "the",
+        "score": 0.8
+      },
+      {
+        "start": "00:02:06.160",
+        "end": "00:02:06.440",
+        "text": "media",
+        "score": 0.81
+      },
+      {
+        "start": "00:02:06.440",
+        "end": "00:02:06.840",
+        "text": "is",
+        "score": 0.64
+      },
+      {
+        "start": "00:02:06.840",
+        "end": "00:02:07.320",
+        "text": "playing",
+        "score": 0.82
+      },
+      {
+        "start": "00:02:07.320",
+        "end": "00:02:07.820",
+        "text": "as.",
+        "score": 0.85
+      }
+    ]
+  },
+  {
+    "text": "Oh, you can import media, media, um, so that while you edit the, the transcript,",
+    "start": "00:02:13.120",
+    "end": "00:02:20.420",
+    "score": 0.56,
+    "words": [
+      {
+        "start": "00:02:13.120",
+        "end": "00:02:13.680",
+        "text": "Oh,",
+        "score": 0.1
+      },
+      {
+        "start": "00:02:13.680",
+        "end": "00:02:14.240",
+        "text": "you",
+        "score": 0.6
+      },
+      {
+        "start": "00:02:14.240",
+        "end": "00:02:14.400",
+        "text": "can",
+        "score": 0.9
+      },
+      {
+        "start": "00:02:14.400",
+        "end": "00:02:14.760",
+        "text": "import",
+        "score": 0.76
+      },
+      {
+        "start": "00:02:14.760",
+        "end": "00:02:15.240",
+        "text": "media,",
+        "score": 0.8
+      },
+      {
+        "start": "00:02:16.020",
+        "end": "00:02:16.480",
+        "text": "media,",
+        "score": 0.26
+      },
+      {
+        "start": "00:02:16.840",
+        "end": "00:02:17.520",
+        "text": "um,",
+        "score": 0.12
+      },
+      {
+        "start": "00:02:17.580",
+        "end": "00:02:17.880",
+        "text": "so",
+        "score": 0.88
+      },
+      {
+        "start": "00:02:17.880",
+        "end": "00:02:18.200",
+        "text": "that",
+        "score": 0.88
+      },
+      {
+        "start": "00:02:18.200",
+        "end": "00:02:19.060",
+        "text": "while",
+        "score": 0.85
+      },
+      {
+        "start": "00:02:19.060",
+        "end": "00:02:19.260",
+        "text": "you",
+        "score": 0.9
+      },
+      {
+        "start": "00:02:19.260",
+        "end": "00:02:19.520",
+        "text": "edit",
+        "score": 0.87
+      },
+      {
+        "start": "00:02:19.520",
+        "end": "00:02:19.820",
+        "text": "the,",
+        "score": 0.8
+      },
+      {
+        "start": "00:02:19.820",
+        "end": "00:02:20.040",
+        "text": "the",
+        "score": 0.82
+      },
+      {
+        "start": "00:02:20.040",
+        "end": "00:02:20.420",
+        "text": "transcript,",
+        "score": 0.86
+      }
+    ]
+  },
+  {
+    "text": "you can cross check with the original media.",
+    "start": "00:02:20.600",
+    "end": "00:02:22.860",
+    "score": 0.56,
+    "words": [
+      {
+        "start": "00:02:20.600",
+        "end": "00:02:20.660",
+        "text": "you",
+        "score": 0.9
+      },
+      {
+        "start": "00:02:20.660",
+        "end": "00:02:20.860",
+        "text": "can",
+        "score": 0.9
+      },
+      {
+        "start": "00:02:20.860",
+        "end": "00:02:21.200",
+        "text": "cross",
+        "score": 0.83
+      },
+      {
+        "start": "00:02:21.200",
+        "end": "00:02:21.460",
+        "text": "check",
+        "score": 0.58
+      },
+      {
+        "start": "00:02:21.460",
+        "end": "00:02:21.720",
+        "text": "with",
+        "score": 0.81
+      },
+      {
+        "start": "00:02:21.720",
+        "end": "00:02:21.980",
+        "text": "the",
+        "score": 0.82
+      },
+      {
+        "start": "00:02:21.980",
+        "end": "00:02:22.420",
+        "text": "original",
+        "score": 0.82
+      },
+      {
+        "start": "00:02:22.420",
+        "end": "00:02:22.860",
+        "text": "media.",
+        "score": 0.81
+      }
+    ]
+  },
+  {
+    "text": "Um, uh, the space key press works for play pause, like you'd expect, um, as the media plays,",
+    "start": "00:02:23.760",
+    "end": "00:02:30.340",
+    "score": 0.56,
+    "words": [
+      {
+        "start": "00:02:23.760",
+        "end": "00:02:23.900",
+        "text": "Um,",
+        "score": 0.86
+      },
+      {
+        "start": "00:02:24.240",
+        "end": "00:02:24.880",
+        "text": "uh,",
+        "score": 0.82
+      },
+      {
+        "start": "00:02:24.940",
+        "end": "00:02:25.180",
+        "text": "the",
+        "score": 0.8
+      },
+      {
+        "start": "00:02:25.180",
+        "end": "00:02:25.420",
+        "text": "space",
+        "score": 0.62
+      },
+      {
+        "start": "00:02:25.420",
+        "end": "00:02:25.640",
+        "text": "key",
+        "score": 0.8
+      },
+      {
+        "start": "00:02:25.640",
+        "end": "00:02:25.880",
+        "text": "press",
+        "score": 0.81
+      },
+      {
+        "start": "00:02:25.880",
+        "end": "00:02:26.160",
+        "text": "works",
+        "score": 0.68
+      },
+      {
+        "start": "00:02:26.160",
+        "end": "00:02:26.380",
+        "text": "for",
+        "score": 0.87
+      },
+      {
+        "start": "00:02:26.380",
+        "end": "00:02:26.620",
+        "text": "play",
+        "score": 0.82
+      },
+      {
+        "start": "00:02:26.620",
+        "end": "00:02:26.960",
+        "text": "pause,",
+        "score": 0.45
+      },
+      {
+        "start": "00:02:27.020",
+        "end": "00:02:27.260",
+        "text": "like",
+        "score": 0.86
+      },
+      {
+        "start": "00:02:27.260",
+        "end": "00:02:27.440",
+        "text": "you'd",
+        "score": 0.89
+      },
+      {
+        "start": "00:02:27.440",
+        "end": "00:02:27.900",
+        "text": "expect,",
+        "score": 0.84
+      },
+      {
+        "start": "00:02:27.980",
+        "end": "00:02:29.020",
+        "text": "um,",
+        "score": 0.88
+      },
+      {
+        "start": "00:02:29.060",
+        "end": "00:02:29.360",
+        "text": "as",
+        "score": 0.91
+      },
+      {
+        "start": "00:02:29.360",
+        "end": "00:02:29.500",
+        "text": "the",
+        "score": 0.82
+      },
+      {
+        "start": "00:02:29.500",
+        "end": "00:02:29.740",
+        "text": "media",
+        "score": 0.83
+      },
+      {
+        "start": "00:02:29.740",
+        "end": "00:02:30.340",
+        "text": "plays,",
+        "score": 0.8
+      }
+    ]
+  },
+  {
+    "text": "the current segment will be highlighted, stealing the show.",
+    "start": "00:02:30.960",
+    "end": "00:02:34.560",
+    "score": 0.56,
+    "words": [
+      {
+        "start": "00:02:30.960",
+        "end": "00:02:31.520",
+        "text": "the",
+        "score": 0.76
+      },
+      {
+        "start": "00:02:31.520",
+        "end": "00:02:31.820",
+        "text": "current",
+        "score": 0.75
+      },
+      {
+        "start": "00:02:31.820",
+        "end": "00:02:32.140",
+        "text": "segment",
+        "score": 0.86
+      },
+      {
+        "start": "00:02:32.140",
+        "end": "00:02:32.320",
+        "text": "will",
+        "score": 0.81
+      },
+      {
+        "start": "00:02:32.320",
+        "end": "00:02:32.480",
+        "text": "be",
+        "score": 0.9
+      },
+      {
+        "start": "00:02:32.480",
+        "end": "00:02:32.920",
+        "text": "highlighted,",
+        "score": 0.79
+      },
+      {
+        "start": "00:02:33.460",
+        "end": "00:02:34.120",
+        "text": "stealing",
+        "score": 0.79
+      },
+      {
+        "start": "00:02:34.120",
+        "end": "00:02:34.320",
+        "text": "the",
+        "score": 0.81
+      },
+      {
+        "start": "00:02:34.320",
+        "end": "00:02:34.560",
+        "text": "show.",
+        "score": 0.88
+      }
+    ]
+  },
+  {
+    "text": "And if you've got that family of words, um, you can, you know,",
+    "start": "00:02:35.100",
+    "end": "00:02:37.800",
+    "score": 0.56,
+    "words": [
+      {
+        "start": "00:02:35.100",
+        "end": "00:02:35.660",
+        "text": "And",
+        "score": 0.9
+      },
+      {
+        "start": "00:02:35.660",
+        "end": "00:02:35.860",
+        "text": "if",
+        "score": 0.9
+      },
+      {
+        "start": "00:02:35.860",
+        "end": "00:02:36.040",
+        "text": "you've",
+        "score": 0.91
+      },
+      {
+        "start": "00:02:36.040",
+        "end": "00:02:36.320",
+        "text": "got",
+        "score": 0.9
+      },
+      {
+        "start": "00:02:36.320",
+        "end": "00:02:37.040",
+        "text": "that",
+        "score": 0.88
+      },
+      {
+        "start": "00:02:37.040",
+        "end": "00:02:37.800",
+        "text": "family",
+        "score": 0.51
+      },
+      {
+        "start": "00:02:37.800",
+        "end": "00:02:37.800",
+        "text": "of",
+        "score": 0.11
+      },
+      {
+        "start": "00:02:37.800",
+        "end": "00:02:37.800",
+        "text": "words,",
+        "score": 0.0
+      },
+      {
+        "start": "00:02:37.800",
+        "end": "00:02:37.800",
+        "text": "um,",
+        "score": 0.15
+      },
+      {
+        "start": "00:02:37.800",
+        "end": "00:02:37.800",
+        "text": "you",
+        "score": 0.15
+      },
+      {
+        "start": "00:02:37.800",
+        "end": "00:02:37.800",
+        "text": "can,",
+        "score": 0.62
+      },
+      {
+        "start": "00:02:37.800",
+        "end": "00:02:37.800",
+        "text": "you",
+        "score": 0.5
+      },
+      {
+        "start": "00:02:37.800",
+        "end": "00:02:37.800",
+        "text": "know,",
+        "score": 0.09
+      }
+    ]
+  },
+  {
+    "text": "fancy word level timestamp data.",
+    "start": "00:02:37.800",
+    "end": "00:02:39.920",
+    "score": 0.77,
+    "words": [
+      {
+        "start": "00:02:37.800",
+        "end": "00:02:38.080",
+        "text": "fancy",
+        "score": 0.5
+      },
+      {
+        "start": "00:02:38.080",
+        "end": "00:02:38.380",
+        "text": "word",
+        "score": 0.66
+      },
+      {
+        "start": "00:02:38.380",
+        "end": "00:02:38.800",
+        "text": "level",
+        "score": 0.58
+      },
+      {
+        "start": "00:02:38.800",
+        "end": "00:02:39.600",
+        "text": "timestamp",
+        "score": 0.72
+      },
+      {
+        "start": "00:02:39.600",
+        "end": "00:02:39.920",
+        "text": "data.",
+        "score": 0.83
+      }
+    ]
+  },
+  {
+    "text": "We go full paparazzi highlighting each word.",
+    "start": "00:02:41.240",
+    "end": "00:02:44.240",
+    "score": 0.77,
+    "words": [
+      {
+        "start": "00:02:40.960",
+        "end": "00:02:41.300",
+        "text": "We",
+        "score": 0.9
+      },
+      {
+        "start": "00:02:41.300",
+        "end": "00:02:41.480",
+        "text": "go",
+        "score": 0.85
+      },
+      {
+        "start": "00:02:41.480",
+        "end": "00:02:41.780",
+        "text": "full",
+        "score": 0.85
+      },
+      {
+        "start": "00:02:41.780",
+        "end": "00:02:42.400",
+        "text": "paparazzi",
+        "score": 0.9
+      },
+      {
+        "start": "00:02:42.400",
+        "end": "00:02:43.600",
+        "text": "highlighting",
+        "score": 0.15
+      },
+      {
+        "start": "00:02:43.600",
+        "end": "00:02:43.960",
+        "text": "each",
+        "score": 0.87
+      },
+      {
+        "start": "00:02:43.960",
+        "end": "00:02:44.240",
+        "text": "word.",
+        "score": 0.8
+      }
+    ]
+  },
+  {
+    "text": "Like it's a superstar stepping onto the red carpet.",
+    "start": "00:02:44.240",
+    "end": "00:02:47.640",
+    "score": 0.77,
+    "words": [
+      {
+        "start": "00:02:44.240",
+        "end": "00:02:44.480",
+        "text": "Like",
+        "score": 0.82
+      },
+      {
+        "start": "00:02:44.480",
+        "end": "00:02:44.640",
+        "text": "it's",
+        "score": 0.92
+      },
+      {
+        "start": "00:02:44.640",
+        "end": "00:02:44.800",
+        "text": "a",
+        "score": 1.0
+      },
+      {
+        "start": "00:02:44.800",
+        "end": "00:02:45.280",
+        "text": "superstar",
+        "score": 0.77
+      },
+      {
+        "start": "00:02:45.280",
+        "end": "00:02:45.920",
+        "text": "stepping",
+        "score": 0.79
+      },
+      {
+        "start": "00:02:45.920",
+        "end": "00:02:46.900",
+        "text": "onto",
+        "score": 0.67
+      },
+      {
+        "start": "00:02:46.900",
+        "end": "00:02:47.120",
+        "text": "the",
+        "score": 0.82
+      },
+      {
+        "start": "00:02:47.120",
+        "end": "00:02:47.300",
+        "text": "red",
+        "score": 0.8
+      },
+      {
+        "start": "00:02:47.300",
+        "end": "00:02:47.640",
+        "text": "carpet.",
+        "score": 0.68
+      }
+    ]
+  },
+  {
+    "text": "Um, while your, uh, media plays a click on a segment will transport you from time",
+    "start": "00:02:48.760",
+    "end": "00:02:56.080",
+    "score": 0.77,
+    "words": [
+      {
+        "start": "00:02:48.760",
+        "end": "00:02:49.020",
+        "text": "Um,",
+        "score": 0.01
+      },
+      {
+        "start": "00:02:49.340",
+        "end": "00:02:50.000",
+        "text": "while",
+        "score": 0.9
+      },
+      {
+        "start": "00:02:50.000",
+        "end": "00:02:50.540",
+        "text": "your,",
+        "score": 0.76
+      },
+      {
+        "start": "00:02:50.560",
+        "end": "00:02:51.520",
+        "text": "uh,",
+        "score": 0.59
+      },
+      {
+        "start": "00:02:51.520",
+        "end": "00:02:51.860",
+        "text": "media",
+        "score": 0.85
+      },
+      {
+        "start": "00:02:51.860",
+        "end": "00:02:52.400",
+        "text": "plays",
+        "score": 0.84
+      },
+      {
+        "start": "00:02:52.400",
+        "end": "00:02:53.320",
+        "text": "a",
+        "score": 0.87
+      },
+      {
+        "start": "00:02:53.320",
+        "end": "00:02:53.700",
+        "text": "click",
+        "score": 0.76
+      },
+      {
+        "start": "00:02:53.700",
+        "end": "00:02:53.800",
+        "text": "on",
+        "score": 0.91
+      },
+      {
+        "start": "00:02:53.800",
+        "end": "00:02:53.900",
+        "text": "a",
+        "score": 0.91
+      },
+      {
+        "start": "00:02:53.900",
+        "end": "00:02:54.120",
+        "text": "segment",
+        "score": 0.76
+      },
+      {
+        "start": "00:02:54.120",
+        "end": "00:02:54.560",
+        "text": "will",
+        "score": 0.54
+      },
+      {
+        "start": "00:02:54.560",
+        "end": "00:02:55.340",
+        "text": "transport",
+        "score": 0.86
+      },
+      {
+        "start": "00:02:55.340",
+        "end": "00:02:55.560",
+        "text": "you",
+        "score": 0.85
+      },
+      {
+        "start": "00:02:55.560",
+        "end": "00:02:55.760",
+        "text": "from",
+        "score": 0.82
+      },
+      {
+        "start": "00:02:55.760",
+        "end": "00:02:56.080",
+        "text": "time",
+        "score": 0.76
+      }
+    ]
+  },
+  {
+    "text": "directly to that timestamp.",
+    "start": "00:02:56.840",
+    "end": "00:02:58.360",
+    "score": 0.77,
+    "words": [
+      {
+        "start": "00:02:56.820",
+        "end": "00:02:57.160",
+        "text": "directly",
+        "score": 0.74
+      },
+      {
+        "start": "00:02:57.160",
+        "end": "00:02:57.560",
+        "text": "to",
+        "score": 0.91
+      },
+      {
+        "start": "00:02:57.560",
+        "end": "00:02:57.740",
+        "text": "that",
+        "score": 0.89
+      },
+      {
+        "start": "00:02:57.740",
+        "end": "00:02:58.360",
+        "text": "timestamp.",
+        "score": 0.91
+      }
+    ]
+  },
+  {
+    "text": "Um, and guess what?",
+    "start": "00:02:59.520",
+    "end": "00:03:01.860",
+    "score": 0.77,
+    "words": [
+      {
+        "start": "00:02:59.520",
+        "end": "00:03:00.200",
+        "text": "Um,",
+        "score": 0.87
+      },
+      {
+        "start": "00:03:00.660",
+        "end": "00:03:01.040",
+        "text": "and",
+        "score": 0.89
+      },
+      {
+        "start": "00:03:01.040",
+        "end": "00:03:01.540",
+        "text": "guess",
+        "score": 0.81
+      },
+      {
+        "start": "00:03:01.540",
+        "end": "00:03:01.860",
+        "text": "what?",
+        "score": 0.89
+      }
+    ]
+  },
+  {
+    "text": "Uh, if you're rocking that word level, um, uh, timestamp,",
+    "start": "00:03:03.000",
+    "end": "00:03:06.440",
+    "score": 0.77,
+    "words": [
+      {
+        "start": "00:03:02.800",
+        "end": "00:03:03.140",
+        "text": "Uh,",
+        "score": 0.93
+      },
+      {
+        "start": "00:03:03.140",
+        "end": "00:03:03.340",
+        "text": "if",
+        "score": 0.91
+      },
+      {
+        "start": "00:03:03.340",
+        "end": "00:03:03.520",
+        "text": "you're",
+        "score": 0.92
+      },
+      {
+        "start": "00:03:03.520",
+        "end": "00:03:03.780",
+        "text": "rocking",
+        "score": 0.66
+      },
+      {
+        "start": "00:03:03.780",
+        "end": "00:03:04.020",
+        "text": "that",
+        "score": 0.89
+      },
+      {
+        "start": "00:03:04.020",
+        "end": "00:03:04.300",
+        "text": "word",
+        "score": 0.79
+      },
+      {
+        "start": "00:03:04.300",
+        "end": "00:03:04.720",
+        "text": "level,",
+        "score": 0.77
+      },
+      {
+        "start": "00:03:04.740",
+        "end": "00:03:05.220",
+        "text": "um,",
+        "score": 0.88
+      },
+      {
+        "start": "00:03:05.560",
+        "end": "00:03:05.820",
+        "text": "uh,",
+        "score": 0.58
+      },
+      {
+        "start": "00:03:05.820",
+        "end": "00:03:06.440",
+        "text": "timestamp,",
+        "score": 0.93
+      }
+    ]
+  },
+  {
+    "text": "it's like teleporting to the exact moment the word dropped.",
+    "start": "00:03:07.080",
+    "end": "00:03:10.420",
+    "score": 0.8,
+    "words": [
+      {
+        "start": "00:03:07.080",
+        "end": "00:03:07.440",
+        "text": "it's",
+        "score": 0.53
+      },
+      {
+        "start": "00:03:07.440",
+        "end": "00:03:07.760",
+        "text": "like",
+        "score": 0.85
+      },
+      {
+        "start": "00:03:07.760",
+        "end": "00:03:08.600",
+        "text": "teleporting",
+        "score": 0.71
+      },
+      {
+        "start": "00:03:08.600",
+        "end": "00:03:08.840",
+        "text": "to",
+        "score": 0.89
+      },
+      {
+        "start": "00:03:08.840",
+        "end": "00:03:09.020",
+        "text": "the",
+        "score": 0.81
+      },
+      {
+        "start": "00:03:09.020",
+        "end": "00:03:09.340",
+        "text": "exact",
+        "score": 0.86
+      },
+      {
+        "start": "00:03:09.340",
+        "end": "00:03:09.620",
+        "text": "moment",
+        "score": 0.91
+      },
+      {
+        "start": "00:03:09.620",
+        "end": "00:03:09.820",
+        "text": "the",
+        "score": 0.78
+      },
+      {
+        "start": "00:03:09.820",
+        "end": "00:03:09.960",
+        "text": "word",
+        "score": 0.76
+      },
+      {
+        "start": "00:03:09.960",
+        "end": "00:03:10.420",
+        "text": "dropped.",
+        "score": 0.71
+      }
+    ]
+  },
+  {
+    "text": "Um, you can change offset, create new segments,",
+    "start": "00:03:11.920",
+    "end": "00:03:16.560",
+    "score": 0.8,
+    "words": [
+      {
+        "start": "00:03:11.920",
+        "end": "00:03:12.080",
+        "text": "Um,",
+        "score": 0.03
+      },
+      {
+        "start": "00:03:12.080",
+        "end": "00:03:12.320",
+        "text": "you",
+        "score": 0.89
+      },
+      {
+        "start": "00:03:12.320",
+        "end": "00:03:12.500",
+        "text": "can",
+        "score": 0.9
+      },
+      {
+        "start": "00:03:12.500",
+        "end": "00:03:12.820",
+        "text": "change",
+        "score": 0.82
+      },
+      {
+        "start": "00:03:12.820",
+        "end": "00:03:13.480",
+        "text": "offset,",
+        "score": 0.75
+      },
+      {
+        "start": "00:03:13.820",
+        "end": "00:03:15.760",
+        "text": "create",
+        "score": 0.81
+      },
+      {
+        "start": "00:03:15.760",
+        "end": "00:03:16.040",
+        "text": "new",
+        "score": 0.78
+      },
+      {
+        "start": "00:03:16.040",
+        "end": "00:03:16.560",
+        "text": "segments,",
+        "score": 0.71
+      }
+    ]
+  },
+  {
+    "text": "delete them, et cetera.",
+    "start": "00:03:22.100",
+    "end": "00:03:23.560",
+    "score": 0.8,
+    "words": [
+      {
+        "start": "00:03:22.100",
+        "end": "00:03:22.720",
+        "text": "delete",
+        "score": 0.61
+      },
+      {
+        "start": "00:03:22.720",
+        "end": "00:03:23.020",
+        "text": "them,",
+        "score": 0.73
+      },
+      {
+        "start": "00:03:23.280",
+        "end": "00:03:23.280",
+        "text": "et",
+        "score": 0.6
+      },
+      {
+        "start": "00:03:23.280",
+        "end": "00:03:23.590",
+        "text": "cetera.",
+        "score": 0.75
+      }
+    ]
+  },
+  {
+    "text": "Um, check for edit buttons to the right of each segment.",
+    "start": "00:03:24.580",
+    "end": "00:03:29.380",
+    "score": 0.8,
+    "words": [
+      {
+        "start": "00:03:24.580",
+        "end": "00:03:25.200",
+        "text": "Um,",
+        "score": 0.71
+      },
+      {
+        "start": "00:03:25.720",
+        "end": "00:03:26.060",
+        "text": "check",
+        "score": 0.82
+      },
+      {
+        "start": "00:03:26.060",
+        "end": "00:03:26.440",
+        "text": "for",
+        "score": 0.86
+      },
+      {
+        "start": "00:03:26.440",
+        "end": "00:03:26.820",
+        "text": "edit",
+        "score": 0.83
+      },
+      {
+        "start": "00:03:26.820",
+        "end": "00:03:27.340",
+        "text": "buttons",
+        "score": 0.78
+      },
+      {
+        "start": "00:03:27.340",
+        "end": "00:03:27.980",
+        "text": "to",
+        "score": 0.82
+      },
+      {
+        "start": "00:03:27.980",
+        "end": "00:03:28.100",
+        "text": "the",
+        "score": 0.81
+      },
+      {
+        "start": "00:03:28.100",
+        "end": "00:03:28.360",
+        "text": "right",
+        "score": 0.88
+      },
+      {
+        "start": "00:03:28.360",
+        "end": "00:03:28.840",
+        "text": "of",
+        "score": 0.9
+      },
+      {
+        "start": "00:03:28.840",
+        "end": "00:03:29.100",
+        "text": "each",
+        "score": 0.86
+      },
+      {
+        "start": "00:03:29.100",
+        "end": "00:03:29.380",
+        "text": "segment.",
+        "score": 0.8
+      }
+    ]
+  },
+  {
+    "text": "Um, by the way, fun fact about what you're hearing and reading right now.",
+    "start": "00:03:30.420",
+    "end": "00:03:34.680",
+    "score": 0.8,
+    "words": [
+      {
+        "start": "00:03:30.420",
+        "end": "00:03:31.040",
+        "text": "Um,",
+        "score": 0.83
+      },
+      {
+        "start": "00:03:31.280",
+        "end": "00:03:31.660",
+        "text": "by",
+        "score": 0.9
+      },
+      {
+        "start": "00:03:31.660",
+        "end": "00:03:31.740",
+        "text": "the",
+        "score": 0.82
+      },
+      {
+        "start": "00:03:31.740",
+        "end": "00:03:31.980",
+        "text": "way,",
+        "score": 0.9
+      },
+      {
+        "start": "00:03:32.460",
+        "end": "00:03:32.720",
+        "text": "fun",
+        "score": 0.85
+      },
+      {
+        "start": "00:03:32.720",
+        "end": "00:03:32.960",
+        "text": "fact",
+        "score": 0.83
+      },
+      {
+        "start": "00:03:32.960",
+        "end": "00:03:33.200",
+        "text": "about",
+        "score": 0.82
+      },
+      {
+        "start": "00:03:33.200",
+        "end": "00:03:33.500",
+        "text": "what",
+        "score": 0.88
+      },
+      {
+        "start": "00:03:33.500",
+        "end": "00:03:33.640",
+        "text": "you're",
+        "score": 0.92
+      },
+      {
+        "start": "00:03:33.640",
+        "end": "00:03:33.820",
+        "text": "hearing",
+        "score": 0.65
+      },
+      {
+        "start": "00:03:33.820",
+        "end": "00:03:34.000",
+        "text": "and",
+        "score": 0.85
+      },
+      {
+        "start": "00:03:34.000",
+        "end": "00:03:34.220",
+        "text": "reading",
+        "score": 0.8
+      },
+      {
+        "start": "00:03:34.220",
+        "end": "00:03:34.480",
+        "text": "right",
+        "score": 0.87
+      },
+      {
+        "start": "00:03:34.480",
+        "end": "00:03:34.680",
+        "text": "now.",
+        "score": 0.9
+      }
+    ]
+  },
+  {
+    "text": "Um, the original transcript was written by chat GPT,",
+    "start": "00:03:34.680",
+    "end": "00:03:38.860",
+    "score": 0.78,
+    "words": [
+      {
+        "start": "00:03:34.680",
+        "end": "00:03:35.340",
+        "text": "Um,",
+        "score": 0.01
+      },
+      {
+        "start": "00:03:36.000",
+        "end": "00:03:36.220",
+        "text": "the",
+        "score": 0.78
+      },
+      {
+        "start": "00:03:36.220",
+        "end": "00:03:36.580",
+        "text": "original",
+        "score": 0.81
+      },
+      {
+        "start": "00:03:36.580",
+        "end": "00:03:37.100",
+        "text": "transcript",
+        "score": 0.85
+      },
+      {
+        "start": "00:03:37.100",
+        "end": "00:03:37.400",
+        "text": "was",
+        "score": 0.9
+      },
+      {
+        "start": "00:03:37.400",
+        "end": "00:03:37.640",
+        "text": "written",
+        "score": 0.85
+      },
+      {
+        "start": "00:03:37.640",
+        "end": "00:03:37.880",
+        "text": "by",
+        "score": 0.91
+      },
+      {
+        "start": "00:03:37.880",
+        "end": "00:03:38.120",
+        "text": "chat",
+        "score": 0.33
+      },
+      {
+        "start": "00:03:38.120",
+        "end": "00:03:38.860",
+        "text": "GPT,",
+        "score": 0.64
+      }
+    ]
+  },
+  {
+    "text": "then transformed into voice using Suno slash bark.",
+    "start": "00:03:39.020",
+    "end": "00:03:44.460",
+    "score": 0.78,
+    "words": [
+      {
+        "start": "00:03:39.020",
+        "end": "00:03:39.760",
+        "text": "then",
+        "score": 0.73
+      },
+      {
+        "start": "00:03:39.760",
+        "end": "00:03:41.600",
+        "text": "transformed",
+        "score": 0.7
+      },
+      {
+        "start": "00:03:41.600",
+        "end": "00:03:42.020",
+        "text": "into",
+        "score": 0.75
+      },
+      {
+        "start": "00:03:42.020",
+        "end": "00:03:42.520",
+        "text": "voice",
+        "score": 0.87
+      },
+      {
+        "start": "00:03:42.520",
+        "end": "00:03:43.080",
+        "text": "using",
+        "score": 0.81
+      },
+      {
+        "start": "00:03:43.080",
+        "end": "00:03:43.560",
+        "text": "Suno",
+        "score": 0.53
+      },
+      {
+        "start": "00:03:43.560",
+        "end": "00:03:44.020",
+        "text": "slash",
+        "score": 0.23
+      },
+      {
+        "start": "00:03:44.020",
+        "end": "00:03:44.460",
+        "text": "bark.",
+        "score": 0.43
+      }
+    ]
+  },
+  {
+    "text": "And then I dog fooded scribe whisper to generate the transcript from it.",
+    "start": "00:03:44.960",
+    "end": "00:03:49.580",
+    "score": 0.78,
+    "words": [
+      {
+        "start": "00:03:44.960",
+        "end": "00:03:45.640",
+        "text": "And",
+        "score": 0.9
+      },
+      {
+        "start": "00:03:45.640",
+        "end": "00:03:45.780",
+        "text": "then",
+        "score": 0.73
+      },
+      {
+        "start": "00:03:45.780",
+        "end": "00:03:45.960",
+        "text": "I",
+        "score": 0.98
+      },
+      {
+        "start": "00:03:45.960",
+        "end": "00:03:46.340",
+        "text": "dog",
+        "score": 0.67
+      },
+      {
+        "start": "00:03:46.340",
+        "end": "00:03:46.760",
+        "text": "fooded",
+        "score": 0.4
+      },
+      {
+        "start": "00:03:46.760",
+        "end": "00:03:47.340",
+        "text": "scribe",
+        "score": 0.84
+      },
+      {
+        "start": "00:03:47.340",
+        "end": "00:03:47.680",
+        "text": "whisper",
+        "score": 0.73
+      },
+      {
+        "start": "00:03:47.680",
+        "end": "00:03:48.000",
+        "text": "to",
+        "score": 0.89
+      },
+      {
+        "start": "00:03:48.000",
+        "end": "00:03:48.380",
+        "text": "generate",
+        "score": 0.79
+      },
+      {
+        "start": "00:03:48.380",
+        "end": "00:03:48.620",
+        "text": "the",
+        "score": 0.82
+      },
+      {
+        "start": "00:03:48.620",
+        "end": "00:03:48.960",
+        "text": "transcript",
+        "score": 0.85
+      },
+      {
+        "start": "00:03:48.960",
+        "end": "00:03:49.400",
+        "text": "from",
+        "score": 0.81
+      },
+      {
+        "start": "00:03:49.400",
+        "end": "00:03:49.580",
+        "text": "it.",
+        "score": 0.9
+      }
+    ]
+  },
+  {
+    "text": "Um, I guess that's all more or less.",
+    "start": "00:03:50.300",
+    "end": "00:03:52.820",
+    "score": 0.78,
+    "words": [
+      {
+        "start": "00:03:50.300",
+        "end": "00:03:50.460",
+        "text": "Um,",
+        "score": 0.78
+      },
+      {
+        "start": "00:03:50.860",
+        "end": "00:03:51.140",
+        "text": "I",
+        "score": 1.0
+      },
+      {
+        "start": "00:03:51.140",
+        "end": "00:03:51.300",
+        "text": "guess",
+        "score": 0.91
+      },
+      {
+        "start": "00:03:51.300",
+        "end": "00:03:51.560",
+        "text": "that's",
+        "score": 0.94
+      },
+      {
+        "start": "00:03:51.560",
+        "end": "00:03:51.840",
+        "text": "all",
+        "score": 0.9
+      },
+      {
+        "start": "00:03:51.840",
+        "end": "00:03:52.380",
+        "text": "more",
+        "score": 0.74
+      },
+      {
+        "start": "00:03:52.380",
+        "end": "00:03:52.500",
+        "text": "or",
+        "score": 0.91
+      },
+      {
+        "start": "00:03:52.500",
+        "end": "00:03:52.820",
+        "text": "less.",
+        "score": 0.88
+      }
+    ]
+  },
+  {
+    "text": "Um, feel free to ask, suggest, complain of things in GitHub issues.",
+    "start": "00:03:53.640",
+    "end": "00:04:00.440",
+    "score": 0.78,
+    "words": [
+      {
+        "start": "00:03:53.640",
+        "end": "00:03:54.180",
+        "text": "Um,",
+        "score": 0.8
+      },
+      {
+        "start": "00:03:54.420",
+        "end": "00:03:54.640",
+        "text": "feel",
+        "score": 0.91
+      },
+      {
+        "start": "00:03:54.640",
+        "end": "00:03:54.980",
+        "text": "free",
+        "score": 0.87
+      },
+      {
+        "start": "00:03:54.980",
+        "end": "00:03:55.620",
+        "text": "to",
+        "score": 0.91
+      },
+      {
+        "start": "00:03:55.620",
+        "end": "00:03:56.460",
+        "text": "ask,",
+        "score": 0.8
+      },
+      {
+        "start": "00:03:56.620",
+        "end": "00:03:56.980",
+        "text": "suggest,",
+        "score": 0.62
+      },
+      {
+        "start": "00:03:57.160",
+        "end": "00:03:57.540",
+        "text": "complain",
+        "score": 0.76
+      },
+      {
+        "start": "00:03:57.540",
+        "end": "00:03:57.780",
+        "text": "of",
+        "score": 0.88
+      },
+      {
+        "start": "00:03:57.780",
+        "end": "00:03:58.240",
+        "text": "things",
+        "score": 0.73
+      },
+      {
+        "start": "00:03:58.240",
+        "end": "00:03:58.580",
+        "text": "in",
+        "score": 0.85
+      },
+      {
+        "start": "00:03:58.580",
+        "end": "00:03:58.880",
+        "text": "GitHub",
+        "score": 0.76
+      },
+      {
+        "start": "00:03:58.880",
+        "end": "00:04:00.440",
+        "text": "issues.",
+        "score": 0.69
+      }
+    ]
+  },
+  {
+    "text": "Uh, happy editing.",
+    "start": "00:04:01.140",
+    "end": "00:04:02.500",
+    "score": 0.78,
+    "words": [
+      {
+        "start": "00:04:01.140",
+        "end": "00:04:01.820",
+        "text": "Uh,",
+        "score": 0.77
+      },
+      {
+        "start": "00:04:01.920",
+        "end": "00:04:02.240",
+        "text": "happy",
+        "score": 0.79
+      },
+      {
+        "start": "00:04:02.240",
+        "end": "00:04:02.500",
+        "text": "editing.",
+        "score": 0.77
+      }
+    ]
+  },
+  {
+    "text": "Um,",
+    "start": "00:04:02.500",
+    "end": "00:04:04.180",
+    "score": 0.44,
+    "words": [
+      {
+        "start": "00:04:02.500",
+        "end": "00:04:04.180",
+        "text": "Um,",
+        "score": 0.11
+      }
+    ]
+  }
+]
