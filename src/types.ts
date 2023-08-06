@@ -30,13 +30,4 @@ type ExportSegmentData = {
   text: string;
 };
 
-type MediaPlayerEvent = Event & {
-  target: HTMLVideoElement;
-};
-
-export type {
-  SubtitleNodeData,
-  TranscribedData,
-  MediaPlayerEvent,
-  ExportSegmentData,
-};
+export type { SubtitleNodeData, TranscribedData, ExportSegmentData };

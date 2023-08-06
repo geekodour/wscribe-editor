@@ -93,20 +93,19 @@
     <div class="flex justify-center">🐛 {prePause}s</div>
   {/if}
   <div
-    class={clsx(
-      "mb-2 flex items-center bg-white",
-      currentlyPlaying && "playing",
-    )}
+    class={clsx("mb-2 flex bg-white mr-4", currentlyPlaying && "playing")}
     on:click={() => {
       jumpToTimestamp(node.data.start);
     }}
   >
-    <div class="w-1/6 bg-yellow-100">
+    <!-- segment info -->
+    <div class="w-1/6 bg-yellow-100 flex flex-col justify-center">
       <div>S: {msToTimestamp(startTs)}</div>
       <div>E: {msToTimestamp(endTs)}</div>
       <div>D: {duration}s</div>
     </div>
-    <div class="h-full w-full pl-2">
+    <!-- edit area -->
+    <div class="w-full pl-2 flex flex-col justify-center">
       {#if offsetEditMode}
         {#if prePause > 0}
           <div class="flex justify-center">
@@ -162,6 +161,7 @@
         ></div>
       {/if}
     </div>
+    <!-- edit buttons -->
     <div>
       <div
         class="p-4 hover:bg-black hover:text-white"

@@ -1,1 +1,1 @@
-<div>Right now this is the footer</div>
+<div class="flex justify-center">. 2023 .</div>

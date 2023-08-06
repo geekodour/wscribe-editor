@@ -15,14 +15,14 @@
   import type { TranscribedData } from "../types";
   async function handleTranscriptSelect(event) {
     try {
-    errListStore.set([])
-    const selectedTranscript = event.target.files[0];
-    let content = await selectedTranscript.text();
-    const parseFn = fileParseFn(selectedTranscript.name);
-    rawTranscriptDataStore.set(sanitizeContent(parseFn(content)));
-    wordLevelData.set("words" in $rawTranscriptDataStore[0]);
+      errListStore.set([]);
+      const selectedTranscript = event.target.files[0];
+      let content = await selectedTranscript.text();
+      const parseFn = fileParseFn(selectedTranscript.name);
+      rawTranscriptDataStore.set(sanitizeContent(parseFn(content)));
+      wordLevelData.set("words" in $rawTranscriptDataStore[0]);
 
-    let strack: SubtitleTrack, ttrack: SubtitleTrack;
+      let strack: SubtitleTrack, ttrack: SubtitleTrack;
       [strack, ttrack] = subTitleTrackFromSegmentData(
         $rawTranscriptDataStore as TranscribedData[],
       );
@@ -35,7 +35,7 @@
   }
 </script>
 
-<div class="flex justify-end">
+<div class="flex justify-end gap-2">
   <input
     class="hidden"
     id="transcriptfile"
@@ -47,5 +47,11 @@
     for="transcriptfile"
     class="uppercase px-6 py-1 hover:bg-black hover:text-white border-black border-2 cursor-pointer"
     >Load Transcript</label
+  >
+
+  <label
+    for="media"
+    class="uppercase px-6 py-1 hover:bg-black hover:text-white border-black border-2 cursor-pointer"
+    >Load Media</label
   >
 </div>

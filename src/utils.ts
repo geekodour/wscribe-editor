@@ -394,7 +394,11 @@ const exportFormatsFn = {
   SRT: formatSRT,
   VTT: formatVTT,
 };
-const exportStuff = (format: string, data: ExportSegmentData[], transcriptExport: boolean): void => {
+const exportStuff = (
+  format: string,
+  data: ExportSegmentData[],
+  transcriptExport: boolean,
+): void => {
   const fn = exportFormatsFn[format.toUpperCase()];
   if (!fn) {
     throw new Error("unsupported format");
@@ -421,7 +425,7 @@ const trackToList = (track: SubtitleTrack): ExportSegmentData[] => {
 };
 
 const fileName = (ext: string, transcriptExport: boolean): string => {
-  const prefix = `wscribe_${transcriptExport?'transcript':'sub'}`;
+  const prefix = `wscribe_${transcriptExport ? "transcript" : "sub"}`;
   const now = new Date();
   const year = now.getFullYear().toString().slice(-2);
   const month = String(now.getMonth() + 1).padStart(2, "0");
@@ -440,12 +444,20 @@ const fileParseFn = (fileName: string): any => {
     case "srt":
       return (content: any) => {
         let parsed = subtitleparser(content);
-        return parsed.entries.map((e)=>({start: e.from, end: e.to, text: e.text}))
+        return parsed.entries.map((e) => ({
+          start: e.from,
+          end: e.to,
+          text: e.text,
+        }));
       };
     case "vtt":
       return (content: any) => {
         let parsed = subtitleparser(content);
-        return parsed.entries.map((e)=>({start: e.from, end: e.to, text: e.text}))
+        return parsed.entries.map((e) => ({
+          start: e.from,
+          end: e.to,
+          text: e.text,
+        }));
       };
     default:
       throw new Error("unsupported format");
