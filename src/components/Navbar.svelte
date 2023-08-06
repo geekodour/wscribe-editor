@@ -10,7 +10,7 @@
       <div class="flex items-center gap-4">
         <div class="flex gap-4">
           <a
-            class="rounded-md bg-red-400 px-5 py-2.5 text-sm font-medium text-white shadow"
+            class="rounded-md bg-black px-5 py-2.5 text-sm font-medium text-white"
             href="/"
           >
             Github
