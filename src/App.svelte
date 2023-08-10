@@ -37,14 +37,14 @@
       <Navbar {transcriptView} />
     </div>
     <div class="flex grow">
-      <div class="w-3/4 bg-red-100 px-4">
+      <div class="w-3/4 px-4">
         <TopEditorBar />
         {#if $errListStore.length === 0}
           <MainEditor {currentTrack} />
         {/if}
       </div>
       <div class="flex w-1/4 flex-col">
-        <div class="grow bg-amber-100">
+        <div class="grow bg-zinc-200">
           <PlayerControl />
           <ErrorList errList={$errListStore} />
         </div>

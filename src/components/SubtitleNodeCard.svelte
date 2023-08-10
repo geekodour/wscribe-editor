@@ -93,7 +93,10 @@
     <div class="flex justify-center">🐛 {prePause}s</div>
   {/if}
   <div
-    class={clsx("mb-2 flex bg-white mx-4", currentlyPlaying && "playing")}
+    class={clsx(
+      "mb-2 flex mx-4 rounded-lg shadow-lg bg-zinc-100",
+      currentlyPlaying && "playing",
+    )}
     on:click={() => {
       jumpToTimestamp(node.data.start);
     }}
