@@ -19,7 +19,7 @@
   // NOTE: Not a big fan of how I am splitting the view toggle for scoreView and
   // transcriptView into store based and component based toggles. Not ideal.
   // Maybe refactor everything to store, so current naming convention sucks
-  let transcriptView = false;
+  let transcriptView = true;
   const toggleScoreView = () => {
     $scoreView = !$scoreView;
     currentTrack.resetTrack();
@@ -32,10 +32,10 @@
 </script>
 
 <main>
-  <div
-    class="flex h-screen max-h-screen flex-col px-4 py-2 2xl:m-auto 2xl:w-4/5"
-  >
-    <Navbar />
+  <div class="flex h-screen max-h-screen flex-col 2xl:m-auto">
+    <div class="px-8">
+      <Navbar {transcriptView} />
+    </div>
     <div class="flex grow">
       <div class="w-3/4 bg-red-100 px-4">
         <TopEditorBar />

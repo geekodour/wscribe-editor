@@ -1,1 +1,1 @@
-<div class="flex justify-center">. 2023 .</div>
+<div class="flex justify-center">wscribe | github</div>
