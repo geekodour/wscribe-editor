@@ -4,12 +4,13 @@
   import { msToTimestamp, wordColor } from "../utils";
   import { afterUpdate } from "svelte";
   import clsx from "clsx";
-  import { scoreView, wordLevelData } from "../store";
+  import { scoreView, wordLevelData, waveStore } from "../store";
 
   export let node;
   export let currentTrack;
   export let currentPlaybackTime;
 
+  let card;
   let startTs: number = node.data.start;
   let endTs: number = node.data.end;
   $: duration = (endTs - startTs) / 1000;
@@ -29,8 +30,7 @@
   let refContentEditable;
 
   const jumpToTimestamp = (t: number) => {
-    let videoNode = document.querySelector("video");
-    videoNode.currentTime = t / 1000;
+    $waveStore.setTime(t / 1000);
   };
 
   afterUpdate(() => {
@@ -65,7 +65,12 @@
         $currentPlaybackTime > startTs / 1000 &&
         $currentPlaybackTime < endTs / 1000
       ) {
+        if (!currentlyPlaying && card) {
+          // if set the first time
+          card.scrollIntoView();
+        }
         currentlyPlaying = true;
+        // TODO: put this element on top view
 
         if (wordLevelTracking && refContentEditable) {
           let wordSpans =
@@ -90,9 +95,13 @@
 
 <div>
   {#if prePause > 0}
-    <div class="flex justify-center">🐛 {prePause}s</div>
+    <div class="flex justify-center text-xs text-stone-500 font-mono">
+      🤜
+      {prePause}s 🤛
+    </div>
   {/if}
   <div
+    bind:this={card}
     class={clsx(
       "mb-2 flex mx-4 rounded-lg shadow-lg bg-zinc-100",
       currentlyPlaying && "playing",
@@ -102,56 +111,62 @@
     }}
   >
     <!-- segment info -->
-    <div class="w-1/6 bg-yellow-100 flex flex-col justify-center">
-      <div>S: {msToTimestamp(startTs)}</div>
-      <div>E: {msToTimestamp(endTs)}</div>
+    <div
+      class="w-1/6 bg-yellow-100 flex flex-col justify-center text-xs rounded-lg pl-2 font-mono"
+    >
       <div>D: {duration}s</div>
+      <div>{msToTimestamp(startTs)}</div>
+      <div>{msToTimestamp(endTs)}</div>
     </div>
     <!-- edit area -->
-    <div class="w-full pl-2 flex flex-col justify-center">
+    <div class="w-full pl-2 flex flex-col justify-center py-2">
       {#if offsetEditMode}
         {#if prePause > 0}
           <div class="flex justify-center">
             <button
+              class="inline-flex w-full justify-center gap-x-1.5 rounded-md bg-white px-3 py-2 text-xs font-semibold text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 hover:bg-gray-50 focus:ring focus:ring-violet-300"
               on:click|stopPropagation={() =>
                 currentTrack.appendBeforeSegment(node)}
-              >Add New Segment 🔼</button
+              >Add New Segment Above</button
             >
           </div>
         {/if}
-        <div>
-          Min: {msToTimestamp(node.minOffset())} Max:
-          {msToTimestamp(endTs)}
-          <input
-            class="w-full"
-            type="range"
-            bind:value={startTs}
-            on:change={() => {
-              updateTimestamps();
-            }}
-            min={node.minOffset()}
-            max={endTs}
-          />
-        </div>
-        <div>
-          Min: {msToTimestamp(startTs)} Max: {msToTimestamp(node.maxOffset())}
-          <input
-            type="range"
-            class="w-full"
-            bind:value={endTs}
-            on:change={() => {
-              updateTimestamps();
-            }}
-            min={startTs}
-            max={node.maxOffset()}
-          />
+        <div class="px-2 py-4 font-mono text-xs">
+          <div>
+            Min: {msToTimestamp(node.minOffset())} Max:
+            {msToTimestamp(endTs)}
+            <input
+              class="w-full"
+              type="range"
+              bind:value={startTs}
+              on:change={() => {
+                updateTimestamps();
+              }}
+              min={node.minOffset()}
+              max={endTs}
+            />
+          </div>
+          <div>
+            Min: {msToTimestamp(startTs)} Max: {msToTimestamp(node.maxOffset())}
+            <input
+              type="range"
+              class="w-full"
+              bind:value={endTs}
+              on:change={() => {
+                updateTimestamps();
+              }}
+              min={startTs}
+              max={node.maxOffset()}
+            />
+          </div>
         </div>
         {#if postPause > 0}
           <div class="flex justify-center">
             <button
+              class="inline-flex w-full justify-center gap-x-1.5 rounded-md bg-white px-3 py-2 text-xs font-semibold text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 hover:bg-gray-50 focus:ring focus:ring-violet-300"
               on:click|stopPropagation={() =>
                 currentTrack.appendAfterSegment(node)}
-              >Add New Segment 🔽
+              >Add New Segment Below
             </button>
           </div>
         {/if}
@@ -165,9 +180,9 @@
       {/if}
     </div>
     <!-- edit buttons -->
-    <div>
+    <div class="flex flex-col justify-center">
       <div
-        class="p-4 hover:bg-black hover:text-white"
+        class="p-4 hover:bg-black hover:text-white rounded-full cursor-pointer"
         on:click|stopPropagation={() =>
           currentTrack.toggleEditModeForSegment(node)}
       >
@@ -187,7 +202,7 @@
         </svg>
       </div>
       <div
-        class="p-4 hover:bg-black hover:text-white"
+        class="p-4 hover:bg-black hover:text-white rounded-full cursor-pointer"
         on:click|stopPropagation={() => currentTrack.removeSegment(node)}
       >
         <svg

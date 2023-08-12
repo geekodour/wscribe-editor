@@ -2,6 +2,7 @@ import type {
   ExportSegmentData,
   SubtitleNodeData,
   TranscribedData,
+  SessionMetadata,
 } from "./types";
 
 import { parse as subtitleparser } from "@plussub/srt-vtt-parser";
@@ -26,7 +27,11 @@ function timestampToMs(timestamp: string) {
   return totalMs;
 }
 
-function msToTimestamp(ms: number, decimal_marker: string = "."): string {
+function msToTimestamp(
+  ms: number,
+  decimal_marker: string = ".",
+  trimMs: boolean = false,
+): string {
   const hours = Math.floor(ms / 3_600_000);
   ms -= hours * 3_600_000;
 
@@ -35,6 +40,7 @@ function msToTimestamp(ms: number, decimal_marker: string = "."): string {
 
   const seconds = Math.floor(ms / 1_000);
   ms -= seconds * 1_000;
+  ms = trimMs ? parseFloat(ms.toFixed(0)) : ms;
 
   return `${stringPad(hours)}:${stringPad(minutes)}:${stringPad(
     seconds,
@@ -464,6 +470,29 @@ const fileParseFn = (fileName: string): any => {
   }
 };
 
+const newSessionMetadata = (
+  mediaFileName: string,
+  transcriptFileName: string,
+  mediaTotalDuration: string,
+  transcriptLastTimestamp: string,
+  mediaCurrentTimestamp: string,
+  mediaCurrentPlaybackSpeed: string,
+  totalSegments: number,
+): SessionMetadata => {
+  return {
+    mediaFileName: { alias: "MED", value: mediaFileName },
+    transcriptFileName: { alias: "TRA", value: transcriptFileName },
+    mediaTotalDuration: { alias: "EOM", value: mediaTotalDuration },
+    transcriptLastTimestamp: { alias: "EOT", value: transcriptLastTimestamp },
+    mediaCurrentTimestamp: { alias: "CUR", value: mediaCurrentTimestamp },
+    mediaCurrentPlaybackSpeed: {
+      alias: "SPD",
+      value: mediaCurrentPlaybackSpeed,
+    },
+    totalSegments: { alias: "SEG", value: totalSegments },
+  };
+};
+
 const sanitizeContent = (data: TranscribedData[]): TranscribedData[] => {
   decodeToMs(data);
   verifyInputOrder(data);
@@ -477,6 +506,7 @@ export {
   segmentToNodeData,
   subtitleToTranscriptGroups,
   exportFormatsFn,
+  newSessionMetadata,
   fileParseFn,
   sanitizeContent,
   trackToList,

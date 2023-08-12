@@ -31,5 +31,8 @@
     "typescript": "^5.0.2",
     "vite": "^4.4.7",
     "vitest": "^0.33.0"
+  },
+  "dependencies": {
+    "wavesurfer.js": "^7.1.2"
   }
 }

@@ -7,7 +7,7 @@ import {
   SubtitleNode,
 } from "./utils";
 import type { TranscribedData } from "./types";
-import sampletranscriptdata from "./assets/wscribe_editor_into.json"; // TODO: move to input examples
+import sampletranscriptdata from "./assets/wscribe_editor_into.json";
 import { nanoid } from "nanoid";
 
 function createErrorStore() {
@@ -146,6 +146,13 @@ try {
   console.error(e);
   errListStore.addToList(e.message);
 }
+const waveStore = writable(null);
+const mediaStoreURL = writable("/wscribe_editor_intro.mp3");
+const isPlayable = writable(false);
+const fileInfo = writable({
+  mediaFileName: null,
+  transcriptFileName: null,
+});
 
 export {
   errListStore,
@@ -155,4 +162,8 @@ export {
   rawTranscriptDataStore,
   wordLevelData,
   scoreView,
+  waveStore,
+  mediaStoreURL,
+  isPlayable,
+  fileInfo,
 };

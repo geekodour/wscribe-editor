@@ -1,12 +1,11 @@
 <script lang="ts">
-  import svelteLogo from "./assets/svelte.svg";
   import Navbar from "./components/Navbar.svelte";
-  import TopEditorBar from "./components/TopEditorBar.svelte";
   import PlayerControl from "./components/PlayerControl.svelte";
   import OptionsActions from "./components/OptionsActions.svelte";
   import MainEditor from "./components/MainEditor.svelte";
   import ErrorList from "./components/ErrorList.svelte";
   import Timeline from "./components/Timeline.svelte";
+  import BottomPlayer from "./components/BottomPlayer.svelte";
   import {
     subtitleTrackStore,
     errListStore,
@@ -32,23 +31,23 @@
 </script>
 
 <main>
-  <div class="flex h-screen max-h-screen flex-col 2xl:m-auto">
-    <div class="px-8">
+  <div class="flex h-screen max-h-screen flex-col 2xl:m-auto font-body">
+    <div class="bg-zinc-50">
       <Navbar {transcriptView} />
     </div>
     <div class="flex grow">
-      <div class="w-3/4 px-4">
-        <TopEditorBar />
+      <div class="w-3/4 px-4 flex flex-col justify-around">
         {#if $errListStore.length === 0}
           <MainEditor {currentTrack} />
+          <BottomPlayer />
         {/if}
       </div>
       <div class="flex w-1/4 flex-col">
-        <div class="grow bg-zinc-200">
-          <PlayerControl />
+        <div class="grow bg-zinc-100">
+          <PlayerControl {currentTrack} />
           <ErrorList errList={$errListStore} />
         </div>
-        <div class="bg-lime-100 py-12">
+        <div class="bg-zinc-200 py-12">
           <OptionsActions
             {toggleTranscriptView}
             {toggleScoreView}

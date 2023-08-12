@@ -26,7 +26,6 @@ Local audio/video can be imported to the editor so that it can be sync-ed with t
 *** UI
 - [ ] Design changes/CSS. Currently UI looks very MVP even if most features work. Some basic design/color/element changes should make the editor look more fun and intuitive to use.
 *** UX
-- [ ] Auto slide editor to playing area
 *** Features
 - [ ] Diff view
 *** Others
