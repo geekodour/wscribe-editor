@@ -57,7 +57,7 @@
         </div>
       </div>
     </div>
-    <div class="bg-black text-white">
+    <div class="bg-zinc-600 text-white">
       <Timeline />
     </div>
   </div>

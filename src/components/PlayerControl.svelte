@@ -147,6 +147,12 @@
       <li>Change playback speed with (n)x</li>
       <li>Toggle between transcript & subtitle</li>
       <li>Toggle confidence (if applicable)</li>
+      <li>
+        This is only a transcript editor, it does not generate. Check <a
+          href="https://github.com/geekodour/wscribe"
+          class="underline">wscribe</a
+        > to generate transcripts.
+      </li>
     </ul>
   </div>
   <div class="flex justify-between">
