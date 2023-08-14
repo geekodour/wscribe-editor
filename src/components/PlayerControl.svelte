@@ -61,6 +61,7 @@
         barRadius: 2,
       }),
     );
+    $waveStore.setVolume(1)
     $waveStore.on("timeupdate", (currentTime: number) => {
       currentPlaybackTime.set(currentTime);
     });
