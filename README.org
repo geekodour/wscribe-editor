@@ -1,6 +1,8 @@
 * wscribe-editor
 Live editor: [[https://wscribe-editor.geekodour.org][wscribe-editor.geekodour.org]]
 
+Warning: code is shit, but works.
+
 *wscribe-editor* is the editor for transcription/subtitle files(~json~, ~srt~, ~vtt~) generated using [[https://github.com/geekodour/wscribe][wscribe]]. It also supports general ~srt~ and ~vtt~ files but when loaded into the editor those will lack features such as "word level playback tracking" and "word level confidence score coloring" simply because those information are usually not encoded into ~srt~ and ~vtt~ files.
 
 It's strictly a subtitle editor and does nothing related to video/audio editing. It offers functionality to adjust offsets for the subtitle track so can be used to sync the subtitle with the media but is geared more towards manual editing use-cases such as:
@@ -30,5 +32,7 @@ Local audio/video can be imported to the editor so that it can be sync-ed with t
 - [ ] Diff view
 *** Others
 - [ ] Add CI for automated tests
+** Related projects
+- [[https://hyper.audio/][Hyperaudio]] and [[https://github.com/hyperaudio/hyperaudio-lite][hyperaudio-lite]] : I came accross these after I wrote wscribe, they're pretty neat.
 ** Acknowledgments
 This was created as part of an ongoing archival projects at [[https://www.sochara.org/][sochara]] to accelerate speed of generating transcription. Big thanks to the folks there for the opportunity to create this. See more details on it in the [[https://github.com/geekodour/wscribe][wscribe]] documentation.
