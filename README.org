@@ -3,6 +3,8 @@ Live editor: [[https://wscribe-editor.geekodour.org][wscribe-editor.geekodour.or
 
 Warning: code is shit, but works.
 
+[[file:./examples/web.png]]
+
 *wscribe-editor* is the editor for transcription/subtitle files(~json~, ~srt~, ~vtt~) generated using [[https://github.com/geekodour/wscribe][wscribe]]. It also supports general ~srt~ and ~vtt~ files but when loaded into the editor those will lack features such as "word level playback tracking" and "word level confidence score coloring" simply because those information are usually not encoded into ~srt~ and ~vtt~ files.
 
 It's strictly a subtitle editor and does nothing related to video/audio editing. It offers functionality to adjust offsets for the subtitle track so can be used to sync the subtitle with the media but is geared more towards manual editing use-cases such as:
@@ -24,6 +26,8 @@ Every import/export happens locally, nothing you do inside ~wscribe-editor~ leav
 - Examples for all 4 *export* formats can be [[https://github.com/geekodour/wscribe-editor/tree/main/examples/output][found here]]. (editor supports exporting in transcript mode/subtitle mode)
 *** Media
 Local audio/video can be imported to the editor so that it can be sync-ed with the transcript and corrections can be made in reference to it. No export of the media is supported. If there's any interest in any other media sources like youtube etc, please let me know [[https://github.com/geekodour/wscribe-editor/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc][by creating an issue]].
+** Known issues
+- I tested this on firefox, seems to work fine but with google chrome it [[https://github.com/geekodour/wscribe-editor/issues/1][seems to be having some issues]].
 ** Roadmap
 *** UI
 - [ ] Design changes/CSS. Currently UI looks very MVP even if most features work. Some basic design/color/element changes should make the editor look more fun and intuitive to use.
