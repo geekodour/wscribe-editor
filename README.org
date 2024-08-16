@@ -38,5 +38,6 @@ Local audio/video can be imported to the editor so that it can be sync-ed with t
 - [ ] Add CI for automated tests
 ** Related projects
 - [[https://hyper.audio/][Hyperaudio]] and [[https://github.com/hyperaudio/hyperaudio-lite][hyperaudio-lite]] : I came accross these after I wrote wscribe, they're pretty neat.
+- https://github.com/bugbakery/audapolis
 ** Acknowledgments
 This was created as part of an ongoing archival projects at [[https://www.sochara.org/][sochara]] to accelerate speed of generating transcription. Big thanks to the folks there for the opportunity to create this. See more details on it in the [[https://github.com/geekodour/wscribe][wscribe]] documentation.
