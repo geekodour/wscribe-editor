@@ -449,8 +449,8 @@ const fileParseFn = (fileName: string): any => {
       //return JSON.parse;
       return (content: any) => {
         let jsonInput = JSON.parse(content);
-		let parsed = jsonInput.transcription;
-        return parsed.entries.map((e) => ({
+		let parsed = JSON.parse(JSON.stringify(jsonInput.transcription));
+        return parsed.map((e) => ({
           start: e.timestamps.from,
           end: e.timestamps.to,
           text: e.text,
