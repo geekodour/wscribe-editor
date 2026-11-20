@@ -446,7 +446,16 @@ const fileParseFn = (fileName: string): any => {
   let ext = fileName.split(".")[1]; // assuming filename.ext
   switch (ext) {
     case "json":
-      return JSON.parse;
+      //return JSON.parse;
+      return (content: any) => {
+        let jsonInput = JSON.parse(content);
+		let parsed = jsonInput.transcription;
+        return parsed.entries.map((e) => ({
+          start: e.timestamps.from,
+          end: e.timestamps.to,
+          text: e.text,
+        }));
+      };
     case "srt":
       return (content: any) => {
         let parsed = subtitleparser(content);
