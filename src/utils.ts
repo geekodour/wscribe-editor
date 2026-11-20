@@ -9,7 +9,7 @@ import { parse as subtitleparser } from "@plussub/srt-vtt-parser";
 import { nanoid } from "nanoid";
 
 function timestampToMs(timestamp: string) {
-  const [time, milliseconds] = timestamp.split(".");
+  const [time, milliseconds] = timestamp.split(/[.,]/);
   const [hours, minutes, seconds] = time.split(":").map(parseFloat);
 
   // sometimes hours might be abset, we currently don't handle that case
@@ -301,19 +301,6 @@ function decodeToMs(data: TranscribedData[]) {
     }
   }
 }
-function timestampToMs_b(timestamp) {
-  const [hours, minutes, seconds, milliseconds] = timestamp
-    .split(/[:,]/)
-    .map(Number);
-
-  return (
-    hours * 3600000 +
-    minutes * 60000 +
-    seconds * 1000 +
-    milliseconds
-  );
-}
-
 
 // verify input is ordered i.e all n.end < (n+1).start
 // NOTE: There is a bug in here that it'll skip the last segment for
@@ -466,8 +453,8 @@ const fileParseFn = (fileName: string): any => {
         return parsed.map(
 			(e) => (
 				{
-		          start: timestampToMs_b(e.timestamps.from),
-		          end: timestampToMs_b(e.timestamps.to),
+		          start: timestampToMs(e.timestamps.from),
+		          end: timestampToMs(e.timestamps.to),
 		          text: e.text,
 		    	}
 			)
