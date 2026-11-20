@@ -301,6 +301,19 @@ function decodeToMs(data: TranscribedData[]) {
     }
   }
 }
+function timestampToMs_b(timestamp) {
+  const [hours, minutes, seconds, milliseconds] = timestamp
+    .split(/[:,]/)
+    .map(Number);
+
+  return (
+    hours * 3600000 +
+    minutes * 60000 +
+    seconds * 1000 +
+    milliseconds
+  );
+}
+
 
 // verify input is ordered i.e all n.end < (n+1).start
 // NOTE: There is a bug in here that it'll skip the last segment for
@@ -450,11 +463,15 @@ const fileParseFn = (fileName: string): any => {
       return (content: any) => {
         let jsonInput = JSON.parse(content);
 		let parsed = JSON.parse(JSON.stringify(jsonInput.transcription));
-        return parsed.map((e) => ({
-          start: e.timestamps.from,
-          end: e.timestamps.to,
-          text: e.text,
-        }));
+        return parsed.map(
+			(e) => (
+				{
+		          start: timestampToMs_b(e.timestamps.from),
+		          end: timestampToMs_b(e.timestamps.to),
+		          text: e.text,
+		    	}
+			)
+		);
       };
     case "srt":
       return (content: any) => {
