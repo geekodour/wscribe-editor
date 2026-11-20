@@ -442,23 +442,44 @@ const fileName = (ext: string, transcriptExport: boolean): string => {
   return `${prefix}_${year}_${month}_${day}_${hours}_${minutes}_${seconds}.${ext}`;
 };
 
+function parseWords(tokens)
+{
+  return tokens.map(
+   (w) => (
+       {
+          start: timestampToMs(w.timestamps.from),
+          end: timestampToMs(w.timestamps.to),
+          text: w.text,
+          score: w.p,
+        }
+      ));
+}
+
 const fileParseFn = (fileName: string): any => {
   let ext = fileName.split(".")[1]; // assuming filename.ext
   switch (ext) {
     case "json":
       //return JSON.parse;
       return (content: any) => {
+		if(content.substring(0, 1)=="{"){
         let jsonInput = JSON.parse(content);
 		let parsed = JSON.parse(JSON.stringify(jsonInput.transcription));
+			alert('parsing as whisper JSON');
         return parsed.map(
 			(e) => (
 				{
 		          start: timestampToMs(e.timestamps.from),
 		          end: timestampToMs(e.timestamps.to),
 		          text: e.text,
+				  words: parseWords(e.tokens),
 		    	}
 			)
 		);
+		}
+		else {
+			alert('parsing as wscribe JSON');
+			return JSON.parse(content);
+		}
       };
     case "srt":
       return (content: any) => {
